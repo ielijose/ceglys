@@ -46,6 +46,7 @@
   }
   #imgtest li{
     display: inline-block;
+    padding: 5px;
   }
   #imgtest li img{
     max-height: 200px;
@@ -83,141 +84,131 @@
         
         <!-- Content -->
     <section id="content"><div class="ic">Ceglys Afanador @ ceglysafanador.com.ve Junio, 2013!</div>
-          <div class="container_12">
+          <div class="container_12">            
+
             <article class="content-box" data-tipo="start">
-              <h3 align="center">Administración de farmacos via intramuscular en el área del brazo.</h3>
-              <p>Debido a la  pequeña masa muscular de la zona del brazo evita la administración de  cantidades superiores a 2 ml de medicación. Está tan cerca del nervio radial  como de la arteria humeral profunda, por lo que existe la posibilidad de  lesionar al paciente. Esta es una buena zona, sin embargo, para la dosis de  refuerzo del toxoide tetánico, puesto que es accesible a los pacientes  ambulatorios. Además la medicación administrada en el deltoides se absorbe más  rápidamente.</p>
+              <h3 align="center">PASOS  PARA LA ADMINISTRACION DE FARMACOS POR VÍA INTRAVENOSA              </h3>
               <table width="100%" border="0">
                 <tr>
-                  <td colspan="2" align="center"><h4>PASOS  PARA LA ADMINISTRACION DE FARMACOS EN EL BRAZO: </h4></td>
-                </tr>
-                <tr>
-                  <td width="53%">Compruebe  5 correctos e informe el procedimiento al paciente.</td>
+                  <td width="53%">Comprobar 5 correctos.</td>
                   <td width="47%"><img src="../assets/images/image001.jpg" alt="" class="img right m300"></td>
                 </tr>
                 <tr>
-                  <td align="left">  Lávese la manos</td>
-                  <td><img src="../assets/images/image008.jpg" width="291" height="251"></td>
+                  <td>Lavarse las manos.<br>
+                    <br>
+                  Colocarse guantes.</td>
+                  <td><img src="../assets/images/image002.png" width="266" height="308"></td>
                 </tr>
                 <tr>
-                  <td align="left"><p>*Haga un cuadro imaginario en la parte superior de su brazo.<br><br>
-                        *Encuentre la parte superior de su brazo que tiene una    protuberancia, donde se une con el hombro. Mida 2 dedos de ancho hacia abajo    de esta área del hueso. Aquí se encuentra la parte superior del cuadro    imaginario.<br><br>
-                        *Encuentre la parte de abajo del cuadro dibujando una línea horizontal imaginaria en su brazo, desde el pliegue frontal de su axila hasta el pliegue posterior de su axila.<br><br>
-                        *Encuentre los marcos de los  lados dividiendo el área en tres partes verticales. La parte del medio es donde  se inyectará la medicina.</td>
-                  <td><img src="../assets/images/image003.png" width="168" height="310"></td>
+                  <td>
+                  Elegir la zona por puncionar y descubrirla. En este caso se selecciona  la vena más palpable y la más visible. Limpiar el área.                    <p>&nbsp;</p></td>
+                  <td><img src="../assets/images/image015.jpg" width="313" height="234"></td>
                 </tr>
                 <tr>
-                  <td align="left">Limpie  el sitio, Presionándolo con el aplicador de alcohol; déjelo secar.</td>
-                  <td><img src="../assets/images/image004.jpg" width="162" height="158"></td>
+                  <td>Colocar la ligadura de 5 a 8 centímetros por arriba de la vena elegida  para la punción.&nbsp;Purgar el aire de la jeringa e introducir la aguja con el bicel hacia  arriba formando un ángulo de 30 grados, después de atravesar la piel seguir el  trayecto venoso hasta puncionar la vena, aspirar para cerciorarse de que la aguja  esté dentro de ella.</td>
+                  <td><img src="../assets/images/image016_1.jpg" width="116" height="239"></td>
                 </tr>
                 <tr>
-                  <td align="left"><p>Con sus dedos pulgar e índice, sostenga firmemente el músculo. <br><br>
-                        Coja la jeringa como se coge un lápiz e inserte rápidamente la    aguja a través de la piel en un ángulo     de 90 grados.</p>
+                  <td valign="top" align="left"><p>Quitar la ligadura. <br>
+                    Introducir    el medicamento lentamente, observando las reacciones del paciente. </p>
                   </td>
-                  <td><img src="../assets/images/image009.png" width="259" height="237"></td>
+                  <td><img src="../assets/images/image017.jpg" width="320" height="256"></td>
                 </tr>
                 <tr>
-                  <td align="left"><p>Succione suavemente con el émbolo para ver si sale sangre. Si    sale sangre, saque la aguja, deséchela junto con la jeringa, y empiece    nuevamente.<br><br>
-                   
-Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamente en el tejido.</td>
-                  <td><img src="../assets/images/image006.png" width="231" height="236"></td>
+                  <td>Limpia el área y colocar una torunda alcoholada en el sitio de la punción.</td>
+                  <td><img src="../assets/images/image016_3.jpg" width="238" height="216"></td>
                 </tr>
                 <tr>
-                  <td align="left">Después  de retirar la aguja, aplique un poco de presión sobre el sitio con una gasa  seca o un pañuelo de papel (kleenex), hasta que ya no sangre más.</td>
-                  <td><img src="../assets/images/image007.png" width="231" height="227"></td>
-                </tr>
-                <tr>
-                  <td align="left">Lávese  bien las manos otra vez. Y deseche la aguja debidamente.</td>
-                  <td><img src="../assets/images/image008.jpg" width="232" height="200"></td>
+                  <td>Desechar  la aguja y lavarse las manos.</td>
+                  <td><img src="../assets/images/image008.jpg" alt="" width="232" height="200"></td>
                 </tr>
                 <tr>
                   <td height="61" align="center" valign="bottom"><strong>Contraindicaciones</strong></td>
                   <td align="center" valign="bottom"><strong>Indicaciones</strong></td>
                 </tr>
                 <tr>
-                  <td>Las  personas con trastornos de la coagulación o en tratamiento con anticoagulantes  pueden desarrollar hematomas en el lugar de la inyección, por lo que se informará  al paciente sobre este riesgo. Estos supuestos no contradicen la vacunación y,  en el caso, de precisar una vacuna cuya única vía es la intramuscular, se  utilizará una aguja fina (calibre igual o menor a 23 G) y se aplicará presión  local sin frotar durante al menos dos minutos.</td>
+                  <td>Esta  administración está contraindicada en casos en los que el medicamento esté  comercializado en forma oral y el paciente pueda tomarlo. Y también cuando  existan problemas en la coagulación sanguínea.</td>
                   <td><table cellspacing="0" cellpadding="0" hspace="0" vspace="0" align="left">
-                  </table>Admite hasta 2 ml de volumen.<br>
-                  E paciente puede estar prácticamente en todas  las posiciones: sedestación (sentado), decúbito supino, decúbito lateral o  bipedestación.</td>
+                  </table>
+                  Para  la preparación es necesario comprobar si no hay alergias; comprobar la orden de  medicación; preparar la dosis correcta del fármaco; si se utiliza un vial de  más de un uso, limpiar la medrana de plástico con alcohol; desechar toda aguja  que contacte con la membrana del vial o paredes; nunca usar un medicamento  turbio, con color alterado o precipitado, a menos que las indicaciones del  fabricante expresen que el hacerlo así no es peligroso; revisar la jeringa ya  que el émbolo debe deslizarse por el tubo sin obstáculos. El manguito de la  aguja debe encajar en la jeringa a la perfección; la aguja debe estar lista y  recta; cubrir la aguja con su cubierta (después de la preparación).Desechar  correctamente los residuos (evitando contactar con aguja)</td>
                 </tr>
               </table>
-
             <p class="texto">
               <a href="#" class="button"> Empezar Test--> </a>
             </p>
-            </article>
+          </article>
 
             <!-- 1 -->
 
-            <article class="content-box" data-tipo="vof" data-sol="f">
+            <article class="content-box" data-tipo="vof" data-sol="v">
               <h3 align="left" style="display:inline-block">1) Verdadero o falso </h3>
               <p class="texto">
-               Está tan cerca del nervio radial como de la arteria humeral profunda, por lo que no  existe ninguna posibilidad de lesionar al paciente.
+                Se administrará medicamentos por vía intravenosa cuando se desea tratar con brevedad procesos de alta gravedad
               </p>       
               
               <a href="#" class="button" data-res="v">Verdadero</a>
               <a href="#" class="button" data-res="f">Falso</a>                         
             </article>
-
-            <article class="content-box" data-tipo="vof" data-sol="v">
-              <h3 align="left" style="display:inline-block">2) Verdadero o falso </h3>
-              <p class="texto">
-                Las personas con trastornos de la coagulación o en tratamiento con anticoagulantes pueden desarrollar hematomas en el lugar de la inyección.              
-              </p>       
-              
-              <a href="#" class="button" data-res="v">Verdadero</a>
-              <a href="#" class="button" data-res="f">Falso</a>                         
-            </article>
-
 
             <article class="content-box" data-tipo="vof" data-sol="f">
-              <h3 align="left" style="display:inline-block">3) Verdadero o falso </h3>
+              <h3 align="left" style="display:inline-block">2) Verdadero o falso </h3>
               <p class="texto">
-                Si la medicina en la jeringa tiene sangre, se debe inyecte toda la medicina lentamente en el tejido.              
-              </p>                     
+                La administración de fármacos intravenosa consiste en conducir medicamentos en el torrente muscular del paciente.
+              </p>       
+              
               <a href="#" class="button" data-res="v">Verdadero</a>
               <a href="#" class="button" data-res="f">Falso</a>                         
             </article>
 
             <!-- 3 -->
 
-            <article class="content-box" data-tipo="select">
-              <h3>4) El paciente puede puede estar en 3 de estas posiciones para poder aplicarle la inyección en el brazo:</h3>
-              <p class="texto">   
-                  <ul> 
-                    <li><input type="checkbox" value="1" class="ch1" />Sentado</li>   
-                    <li><input type="checkbox" value="0" class="ch1" />De Cuclillas</li> 
-                    <li><input type="checkbox" value="1" class="ch1" />De Cubito</li> 
-                    <li><input type="checkbox" value="0" class="ch1" />Parado de manos</li> 
-                    <li><input type="checkbox" value="1" class="ch1" />Supino</li> 
-                  </ul>   
-              </p>       
-              
-              <a href="#" class="button">Corregir</a>
-                         
-            </article>
-
-
-            <article class="content-box" data-tipo="image" data-sol="58421367">
-              <h3 align="left" style="display:inline-block">5) Ordene las imágenes: </h3>
+            <article class="content-box" data-tipo="image" data-sol="5273416">
+              <h3 align="left" style="display:inline-block">3) Ordene las imágenes: </h3>
               <p class="texto">
               </p>
               <ul id="imgtest">
-                <li><img src="../assets/imgtest/2/5.png" alt=""><br><input type="text" class="imageres"></li>
-                <li><img src="../assets/imgtest/2/8.jpg" alt=""><br><input type="text" class="imageres"></li>
-                <li><img src="../assets/imgtest/2/4.png" alt=""><br><input type="text" class="imageres"></li>
-                <li><img src="../assets/imgtest/2/2.jpg" alt=""><br><input type="text" class="imageres"></li>
-                <li><img src="../assets/imgtest/2/1.jpg" alt=""><br><input type="text" class="imageres"></li>
-                <li><img src="../assets/imgtest/2/3.jpg" alt=""><br><input type="text" class="imageres"></li>
-                <li><img src="../assets/imgtest/2/6.png" alt=""><br><input type="text" class="imageres"></li>
-                <li><img src="../assets/imgtest/2/7.png" alt=""><br><input type="text" class="imageres"></li>
+                <li><img src="../assets/imgtest/4/5.jpg" alt=""><br><input type="text" class="imageres"></li>
+                <li><img src="../assets/imgtest/4/2.png" alt=""><br><input type="text" class="imageres"></li>
+                <li><img src="../assets/imgtest/4/7.png" alt=""><br><input type="text" class="imageres"></li>
+                <li><img src="../assets/imgtest/4/3.png" alt=""><br><input type="text" class="imageres"></li>
+                <li><img src="../assets/imgtest/4/4.png" alt=""><br><input type="text" class="imageres"></li>
+                <li><img src="../assets/imgtest/4/1.png" alt=""><br><input type="text" class="imageres"></li>
+                <li><img src="../assets/imgtest/4/6.png" alt=""><br><input type="text" class="imageres"></li> 
 
               </ul>
               <a href="#" class="button">Corregir</a>
             </article>
 
-            
+            <!-- 4 -->
 
+            <article class="content-box" data-tipo="vof" data-sol="v">
+              <h3 align="left" style="display:inline-block">4) Seleccione la imagen correcta </h3>
+              <p class="texto">
+              </p>       
+              
+              <a href="#" class="button" data-res="v"><img src="../assets/imgtest/4/v.png"/></a>
+              <a href="#" class="button" data-res="f"><img src="../assets/imgtest/4/f.jpg"/></a>                         
+            </article>
+
+
+            <article class="content-box" data-tipo="vof" data-sol="f">
+              <h3 align="left" style="display:inline-block">5) </h3>
+              <p class="texto">
+               En la administración de fármacos intravenosa se debe introducir  el medicamento rápidamente, sin observar la reaccion del paciente.                
+             </p>                     
+              <a href="#" class="button" data-res="v">Verdadero</a>
+              <a href="#" class="button" data-res="f">Falso</a>                         
+            </article>
+
+            <!-- 5 -->
+
+            <article class="content-box" data-tipo="vof" data-sol="v">
+              <h3 align="left" style="display:inline-block">6) </h3>
+              <p class="texto">
+                Esta técnica se utiliza para medicamentos cuya administración por otras vías está contraindicada.              </p>
+              <a href="#" class="button" data-res="v">Verdadero</a>
+              <a href="#" class="button" data-res="f">Falso</a>           
+            </article>
 
             <article class="content-box aprovado">
 
@@ -259,14 +250,15 @@ Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamen
     cajas = $(".content-box");
     i = 0;
     puntuacion=0;
-    preguntas=5;
+    preguntas=6;
     
     cajas.eq(i).slideDown('slow');
     
     $(".button").click(function(){
+
       i++;
       var tipo = $(this).parent('.content-box').data('tipo');
-      
+     
       switch(tipo){
         case 'vof':
           var sol = $(this).parent('.content-box').data('sol'),
@@ -301,12 +293,12 @@ Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamen
         next();  
       }else{
         cajas.eq(preguntas).slideUp('slow');
-        if(puntuacion>=4){
+        if(puntuacion>=5){
           $(".aprovado").slideDown('slow');    
 
           $.ajax({
             url : "php/ajax.php",
-            data : {action:'nivelAprobado', nivel:'3', puntuacion:puntuacion},
+            data : {action:'nivelAprobado', nivel:'5', puntuacion:puntuacion},
             type : "POST",
             async : false,
             success : function(){
@@ -319,7 +311,7 @@ Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamen
             $(".reprovado").slideDown('slow');          
             $.ajax({
               url : "php/ajax.php",
-              data : {action:'nivelReprobado', nivel:'3', puntuacion:puntuacion},
+              data : {action:'nivelReprobado', nivel:'5', puntuacion:puntuacion},
               type : "POST",
               async : false,
               success : function(){
@@ -332,14 +324,13 @@ Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamen
 
       $(".reprovado .button").click(function(e){
         e.preventDefault();
-        window.location.href = "nivel3.php?denuevo";
+        window.location.href = "nivel4.php?denuevo";
       });
 
       $(".aprovado .button").click( function(e){
         e.preventDefault();        
-        window.location.href = "e2.php";
+        window.location.href = "perfil.php?ref=finish";
       });
-      
     });
 
 

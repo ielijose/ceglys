@@ -48,6 +48,21 @@
   .content-box{
   	display:none;
   }
+  #imgtest li{
+    display: inline-block;
+  }
+  #imgtest li img{
+    max-height: 150px;
+  }
+  #imgtest li input{
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+  }
+  #imgtest li {
+    text-align: center;
+  }
   </style>
 </head>
 <body>
@@ -62,6 +77,7 @@
         <!-- Content -->
     <section id="content"><div class="ic">Ceglys Afanador @ ceglysafanador.com.ve Junio, 2013!</div>
           <div class="container_12">
+
             <article class="content-box" data-tipo="start">
               <h3 align="center">Administración de farmacos.</h3>
               <p class="texto">
@@ -186,10 +202,25 @@ Los cinco correctos para la administración de medicamentos, le permiten al pers
               <a href="#" class="button" data-res="f">Falso</a>           
             </article>
 
+            <article class="content-box" data-tipo="image" data-sol="45312">
+              <h3 align="left" style="display:inline-block">6) indica cual es el orden de los 5 correctos. </h3>
+              <p class="texto">
+              </p>
+              <ul id="imgtest">
+                <li><img src="../assets/imgtest/4.jpg" alt=""><br><input type="text" class="imageres" data-n="4"></li>
+                <li><img src="../assets/imgtest/5.jpg" alt=""><br><input type="text" class="imageres" data-n="5"></li>
+                <li><img src="../assets/imgtest/3.jpg" alt=""><br><input type="text" class="imageres" data-n="3"></li>
+                <li><img src="../assets/imgtest/1.jpg" alt=""><br><input type="text" class="imageres" data-n="1"></li>
+                <li><img src="../assets/imgtest/2.jpg" alt=""><br><input type="text" class="imageres" data-n="2"></li>
+              </ul>
+              <a href="#" class="button">Corregir</a>
+            </article>
+
+
             <!-- 6 -->
 
             <article class="content-box" data-tipo="vof" data-sol="f">
-              <h3 align="left" style="display:inline-block">6) </h3>
+              <h3 align="left" style="display:inline-block">7) </h3>
               <p class="texto">
                 El enfermero debe asegurarse que la medicación este siendo suministrada antes y después del horario.              </p>       
               
@@ -202,7 +233,7 @@ Los cinco correctos para la administración de medicamentos, le permiten al pers
 
             <article class="content-box" data-tipo="vof" data-sol="v">
 
-              <h3 align="left" style="display:inline-block">7) </h3>
+              <h3 align="left" style="display:inline-block">8) </h3>
               <p class="texto">
                   Los cinco correctos para la administración de medicamentos, permiten seguir algunas precauciones estándares, para evitar o minimizar al máximo la posibilidad de un error.       
               </p>       
@@ -256,7 +287,7 @@ swfobject.registerObject("FLVPlayer");
 		cajas = $(".content-box");
 		i = 0;
 		puntuacion=0;
-		preguntas=7;
+		preguntas=8;
 		
 		cajas.eq(i).slideDown('slow');
 		
@@ -281,6 +312,17 @@ swfobject.registerObject("FLVPlayer");
             if(resultado)
               puntuacion++;            
 					break;
+        case 'image':
+          var sol = $(this).parent('.content-box').data('sol');
+          var  reply = "";
+
+          $('.imageres').each(function(i, j){
+            reply+=$(this).val();
+          });
+          if(reply==sol){
+            puntuacion++; 
+          }
+          break;
 			}
 
       if(i<=preguntas){
@@ -296,12 +338,23 @@ swfobject.registerObject("FLVPlayer");
             type : "POST",
             async : false,
             success : function(){
-
+                puntuacion = -9999;
             }
           })
 
         }else{
-          $(".reprovado").slideDown('slow');
+          if(puntuacion!= -9999){
+            $(".reprovado").slideDown('slow');
+            $.ajax({
+              url : "php/ajax.php",
+              data : {action:'nivelReprobado', nivel:'2', puntuacion:puntuacion},
+              type : "POST",
+              async : false,
+              success : function(){
+
+              }
+            });
+          }
         }
       }
 
@@ -312,7 +365,7 @@ swfobject.registerObject("FLVPlayer");
 
       $(".aprovado .button").click( function(e){
         e.preventDefault();        
-        window.location.href = "e1.php";
+        window.location.href = "index.php?goto=2";
       });
 			
 		});

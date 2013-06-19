@@ -19,7 +19,7 @@
             $_SESSION['profesor'] = $login->usuario;
             $_SESSION['id_profesor'] = $login->id;
           }else if($next == 'alumno'){
-            $_SESSION['alumno'] = $login->usuario;
+            $_SESSION['alumno'] = $login->usuario."";
             $_SESSION['id_alumno'] = $login->id;
           }
 

@@ -8,6 +8,7 @@
   $result = mysql_query($query);
   $evaluaciones = mysql_fetch_object($result);
 
+  
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -22,7 +23,10 @@
     <script src="../assets/js/superfish.js"></script>
     <script src="../assets/js/jquery.easing.1.3.js"></script>
     <script src="../assets/js/tms-0.4.1.js"></script>
-<script src="../assets/js/slider.js"></script><!--[if lt IE 8]>
+<script src="../assets/js/slider.js"></script>
+<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+
+<!--[if lt IE 8]>
    <div style=' clear: both; text-align:center; position: relative;'>
      <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
        <img src="http://storage.ie6countdown.com/../assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
@@ -42,7 +46,7 @@
   }
   
   .content-box{
-    display:none;
+  	display:none;
   }
   #imgtest li{
     display: inline-block;
@@ -59,17 +63,6 @@
   #imgtest li {
     text-align: center;
   }
-
-  table{
-    border-radius: 4px;
-    text-align: center;
-  }
-
-  table tr td{
-        border: 1px solid #ccc;
-
-    padding:5px;
-  }
   </style>
 </head>
 <body>
@@ -84,68 +77,66 @@
         <!-- Content -->
     <section id="content"><div class="ic">Ceglys Afanador @ ceglysafanador.com.ve Junio, 2013!</div>
           <div class="container_12">
-            <article class="content-box" data-tipo="start">
-              <h3 align="center">Administración de farmacos via intramuscular en el área del brazo.</h3>
-              <p>Debido a la  pequeña masa muscular de la zona del brazo evita la administración de  cantidades superiores a 2 ml de medicación. Está tan cerca del nervio radial  como de la arteria humeral profunda, por lo que existe la posibilidad de  lesionar al paciente. Esta es una buena zona, sin embargo, para la dosis de  refuerzo del toxoide tetánico, puesto que es accesible a los pacientes  ambulatorios. Además la medicación administrada en el deltoides se absorbe más  rápidamente.</p>
-              <table width="100%" border="0">
-                <tr>
-                  <td colspan="2" align="center"><h4>PASOS  PARA LA ADMINISTRACION DE FARMACOS EN EL BRAZO: </h4></td>
-                </tr>
-                <tr>
-                  <td width="53%">Compruebe  5 correctos e informe el procedimiento al paciente.</td>
-                  <td width="47%"><img src="../assets/images/image001.jpg" alt="" class="img right m300"></td>
-                </tr>
-                <tr>
-                  <td align="left">  Lávese la manos</td>
-                  <td><img src="../assets/images/image008.jpg" width="291" height="251"></td>
-                </tr>
-                <tr>
-                  <td align="left"><p>*Haga un cuadro imaginario en la parte superior de su brazo.<br><br>
-                        *Encuentre la parte superior de su brazo que tiene una    protuberancia, donde se une con el hombro. Mida 2 dedos de ancho hacia abajo    de esta área del hueso. Aquí se encuentra la parte superior del cuadro    imaginario.<br><br>
-                        *Encuentre la parte de abajo del cuadro dibujando una línea horizontal imaginaria en su brazo, desde el pliegue frontal de su axila hasta el pliegue posterior de su axila.<br><br>
-                        *Encuentre los marcos de los  lados dividiendo el área en tres partes verticales. La parte del medio es donde  se inyectará la medicina.</td>
-                  <td><img src="../assets/images/image003.png" width="168" height="310"></td>
-                </tr>
-                <tr>
-                  <td align="left">Limpie  el sitio, Presionándolo con el aplicador de alcohol; déjelo secar.</td>
-                  <td><img src="../assets/images/image004.jpg" width="162" height="158"></td>
-                </tr>
-                <tr>
-                  <td align="left"><p>Con sus dedos pulgar e índice, sostenga firmemente el músculo. <br><br>
-                        Coja la jeringa como se coge un lápiz e inserte rápidamente la    aguja a través de la piel en un ángulo     de 90 grados.</p>
-                  </td>
-                  <td><img src="../assets/images/image009.png" width="259" height="237"></td>
-                </tr>
-                <tr>
-                  <td align="left"><p>Succione suavemente con el émbolo para ver si sale sangre. Si    sale sangre, saque la aguja, deséchela junto con la jeringa, y empiece    nuevamente.<br><br>
-                   
-Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamente en el tejido.</td>
-                  <td><img src="../assets/images/image006.png" width="231" height="236"></td>
-                </tr>
-                <tr>
-                  <td align="left">Después  de retirar la aguja, aplique un poco de presión sobre el sitio con una gasa  seca o un pañuelo de papel (kleenex), hasta que ya no sangre más.</td>
-                  <td><img src="../assets/images/image007.png" width="231" height="227"></td>
-                </tr>
-                <tr>
-                  <td align="left">Lávese  bien las manos otra vez. Y deseche la aguja debidamente.</td>
-                  <td><img src="../assets/images/image008.jpg" width="232" height="200"></td>
-                </tr>
-                <tr>
-                  <td height="61" align="center" valign="bottom"><strong>Contraindicaciones</strong></td>
-                  <td align="center" valign="bottom"><strong>Indicaciones</strong></td>
-                </tr>
-                <tr>
-                  <td>Las  personas con trastornos de la coagulación o en tratamiento con anticoagulantes  pueden desarrollar hematomas en el lugar de la inyección, por lo que se informará  al paciente sobre este riesgo. Estos supuestos no contradicen la vacunación y,  en el caso, de precisar una vacuna cuya única vía es la intramuscular, se  utilizará una aguja fina (calibre igual o menor a 23 G) y se aplicará presión  local sin frotar durante al menos dos minutos.</td>
-                  <td><table cellspacing="0" cellpadding="0" hspace="0" vspace="0" align="left">
-                  </table>Admite hasta 2 ml de volumen.<br>
-                  E paciente puede estar prácticamente en todas  las posiciones: sedestación (sentado), decúbito supino, decúbito lateral o  bipedestación.</td>
-                </tr>
-              </table>
 
-            <p class="texto">
+            <article class="content-box" data-tipo="start">
+              <h3 align="center">Administración de farmacos.</h3>
+              <p class="texto">
+                
+                <h3>Definición de Fármaco: </h3>
+                <img src="../assets/images/farmaco.jpg" class="img right m300">
+
+ Un fármaco es una sustancia química que actúa como determinados sistemas orgánicos del organismo, modificando su comportamiento.
+
+Un fármaco es utilizado en la prevención, diagnóstico, tratamiento, mitigación y cura de una enfermedad, para evitar la aparición de un proceso fisiológico no deseado o bien para modificar condiciones fisiológicas con fines específicos.
+
+<br><br>
+<h3>Administración de Fármacos: </h3>
+La administración de medicamentos son actividades de enfermería que se realizan bajo prescripción médica, en las cuales el enfermero debe enfocarse a reafirmar los conocimientos y aptitudes necesarias para aplicar un fármaco al paciente, asimismo, saber evaluar los factores fisiológicos, mecanismos de acción y las variables individuales que afectan la acción de las drogas, los diversos tipos de prescripciones y vías de administración, así como los aspectos legales que involucran una mala práctica de la administración de medicamentos.
+                <img src="../assets/images/adm-farmaco.jpg" class="img right m300">
+
+ La administración de un fármaco es una función delegada de órdenes médicas. Que debe realizarse siempre con previa orden escrita.
+Antes de realizar la administración de fármacos se deben revisar los 5 correctos presentados a continuación:
+Los cinco correctos para la administración de medicamentos, le permiten al personal enfermero que va a administrar una medicación, seguir algunas precauciones estándares, para evitar o minimizar al máximo la posibilidad de un error al utilizarlos el enfermero se asegura de cumplir algunas pautas para la administración que ya están prestablecidas y que lo guían para un mejor proceder.
+
+<br><br>
+<strong>Video</strong><br>
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="640" height="480" id="FLVPlayer">
+  <param name="movie" value="FLVPlayer_Progressive.swf" />
+  <param name="quality" value="high">
+  <param name="wmode" value="opaque">
+  <param name="scale" value="noscale">
+  <param name="salign" value="lt">
+  <param name="FlashVars" value="&amp;MM_ComponentVersion=1&amp;skinName=Clear_Skin_3&amp;streamName=../assets/videos/ab&amp;autoPlay=false&amp;autoRewind=false" />
+  <param name="swfversion" value="8,0,0,0">
+  <!-- Esta etiqueta param indica a los usuarios de Flash Player 6.0 r65 o posterior que descarguen la versión más reciente de Flash Player. Elimínela si no desea que los usuarios vean el mensaje. -->
+  <param name="expressinstall" value="Scripts/expressInstall.swf">
+  <!-- La siguiente etiqueta object es para navegadores distintos de IE. Ocúltela a IE mediante IECC. -->
+  <!--[if !IE]>-->
+  <object type="application/x-shockwave-flash" data="FLVPlayer_Progressive.swf" width="640" height="480">
+    <!--<![endif]-->
+    <param name="quality" value="high">
+    <param name="wmode" value="opaque">
+    <param name="scale" value="noscale">
+    <param name="salign" value="lt">
+    <param name="FlashVars" value="&amp;MM_ComponentVersion=1&amp;skinName=Clear_Skin_3&amp;streamName=../assets/videos/ab&amp;autoPlay=false&amp;autoRewind=false" />
+    <param name="swfversion" value="8,0,0,0">
+    <param name="expressinstall" value="Scripts/expressInstall.swf">
+    <!-- El navegador muestra el siguiente contenido alternativo para usuarios con Flash Player 6.0 o versiones anteriores. -->
+    <div>
+      <h4>El contenido de esta página requiere una versión más reciente de Adobe Flash Player.</h4>
+      <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Obtener Adobe Flash Player" /></a></p>
+    </div>
+    <!--[if !IE]>-->
+  </object>
+  <!--<![endif]-->
+</object>
+              </p>       
+              
               <a href="#" class="button"> Empezar Test--> </a>
-            </p>
+                         
             </article>
+
+
 
             <!-- 1 -->
 
@@ -251,39 +242,42 @@ Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamen
 
   </div>
 </div>
+<script type="text/javascript">
+swfobject.registerObject("FLVPlayer");
+</script>
 </body>
 </html>
 
 <script>
-  $(document).ready(function(){
-    cajas = $(".content-box");
-    i = 0;
-    puntuacion=0;
-    preguntas=5;
-    
-    cajas.eq(i).slideDown('slow');
-    
-    $(".button").click(function(){
-      i++;
-      var tipo = $(this).parent('.content-box').data('tipo');
-      
-      switch(tipo){
-        case 'vof':
-          var sol = $(this).parent('.content-box').data('sol'),
-            res = $(this).data('res');            
-            if(sol===res)
-              puntuacion++;                     
-          break;
-        case 'select':
-          var checks = $('.ch1'), resultado = true;         
-            checks.each(function(i, index){
+	$(document).ready(function(){
+		cajas = $(".content-box");
+		i = 0;
+		puntuacion=0;
+		preguntas=5;
+		
+		cajas.eq(i).slideDown('slow');
+		
+		$(".button").click(function(){
+			i++;
+			var tipo = $(this).parent('.content-box').data('tipo');
+			
+			switch(tipo){
+				case 'vof':
+					var sol = $(this).parent('.content-box').data('sol'),
+						res = $(this).data('res');						
+						if(sol===res)
+							puntuacion++;											
+					break;
+				case 'select':
+					var checks = $('.ch1'), resultado = true;					
+						checks.each(function(i, index){
               ed = $(this).is(":checked");
-              value = $(this).val();
+							value = $(this).val();
               if(value != ed){resultado=false;}             
-            });
+						});
             if(resultado)
               puntuacion++;            
-          break;
+					break;
         case 'image':
           var sol = $(this).parent('.content-box').data('sol');
           var  reply = "";
@@ -295,7 +289,7 @@ Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamen
             puntuacion++; 
           }
           break;
-      }
+			}
 
       if(i<=preguntas){
         next();  
@@ -315,8 +309,8 @@ Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamen
           })
 
         }else{
+          $(".reprovado").slideDown('slow');
           if(puntuacion!= -9999){
-            $(".reprovado").slideDown('slow');          
             $.ajax({
               url : "php/ajax.php",
               data : {action:'nivelReprobado', nivel:'3', puntuacion:puntuacion},
@@ -332,23 +326,23 @@ Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamen
 
       $(".reprovado .button").click(function(e){
         e.preventDefault();
-        window.location.href = "nivel3.php?denuevo";
+        window.location.href = "nivel2.php?denuevo";
       });
 
       $(".aprovado .button").click( function(e){
         e.preventDefault();        
-        window.location.href = "e2.php";
+        window.location.href = "e1.php";
       });
-      
-    });
+			
+		});
 
 
-    
-    function next(){
-      cajas.eq(i-1).slideUp('slow');
-      cajas.eq(i).slideDown('slow');
-    }
-  });
-  
-  
+		
+		function next(){
+			cajas.eq(i-1).slideUp('slow');
+			cajas.eq(i).slideDown('slow');
+		}
+	});
+	
+	
 </script>

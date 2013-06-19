@@ -123,7 +123,7 @@ $rnotas = mysql_query($qnotas);
                 <tr>
                   <td><? echo utf8_encode($notas->evaluacion); ?></td>
                   <td><? echo $notas->nota; ?></td>
-                  <td><? echo ($notas->estado=='si')?"Aprovabo":"Reprobado"; ?></td>
+                  <td><? echo ($notas->estado=='si')?"Aprobado":"Reprobado"; ?></td>
                 </tr>
                 <? } ?>
               </table>

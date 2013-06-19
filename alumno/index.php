@@ -154,7 +154,7 @@
                 </div>
               </td>
 
-              <? if($gruponivel>=3){ $link = "e3.php";}else{$link = "#no";} ?>
+              <? if($gruponivel>=3){ $link = "nivel5.php";}else{$link = "#no";} ?>
 
               <td>
                 <div class="col-1" id="login-form">

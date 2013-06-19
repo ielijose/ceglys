@@ -48,7 +48,7 @@
     display: inline-block;
   }
   #imgtest li img{
-    max-height: 200px;
+    max-height: 135px;
   }
   #imgtest li input{
     width: 40px;
@@ -80,16 +80,19 @@
           <? require "php/nav.php"; ?>
           <div class="clear"></div>
     </header>
+
+
         
         <!-- Content -->
     <section id="content"><div class="ic">Ceglys Afanador @ ceglysafanador.com.ve Junio, 2013!</div>
           <div class="container_12">
+
             <article class="content-box" data-tipo="start">
-              <h3 align="center">Administración de farmacos via intramuscular en el área del brazo.</h3>
-              <p>Debido a la  pequeña masa muscular de la zona del brazo evita la administración de  cantidades superiores a 2 ml de medicación. Está tan cerca del nervio radial  como de la arteria humeral profunda, por lo que existe la posibilidad de  lesionar al paciente. Esta es una buena zona, sin embargo, para la dosis de  refuerzo del toxoide tetánico, puesto que es accesible a los pacientes  ambulatorios. Además la medicación administrada en el deltoides se absorbe más  rápidamente.</p>
+              <h3 align="center">Administración de farmacos via intramuscular en el área del gluteo.</h3>
+              <p>El sitio recomendado es el cuadrante superior externo del área glútea (unos 5 u 8 cm por debajo de la cresta ilíaca) y puede localizarse trazando una línea desde la espina ilíaca postero-superior hasta el trocánter mayor del fémur. Cualquier inyección aplicada por fuera y por encima de esta línea se encontrará a cierta distancia del nervio ciático.</p>
               <table width="100%" border="0">
                 <tr>
-                  <td colspan="2" align="center"><h4>PASOS  PARA LA ADMINISTRACION DE FARMACOS EN EL BRAZO: </h4></td>
+                  <td colspan="2" align="center"><h4>PASOS  PARA LA ADMINISTRACION DE FARMACOS EN EL GLUTEO: </h4></td>
                 </tr>
                 <tr>
                   <td width="53%">Compruebe  5 correctos e informe el procedimiento al paciente.</td>
@@ -100,34 +103,39 @@
                   <td><img src="../assets/images/image008.jpg" width="291" height="251"></td>
                 </tr>
                 <tr>
-                  <td align="left"><p>*Haga un cuadro imaginario en la parte superior de su brazo.<br><br>
-                        *Encuentre la parte superior de su brazo que tiene una    protuberancia, donde se une con el hombro. Mida 2 dedos de ancho hacia abajo    de esta área del hueso. Aquí se encuentra la parte superior del cuadro    imaginario.<br><br>
-                        *Encuentre la parte de abajo del cuadro dibujando una línea horizontal imaginaria en su brazo, desde el pliegue frontal de su axila hasta el pliegue posterior de su axila.<br><br>
-                        *Encuentre los marcos de los  lados dividiendo el área en tres partes verticales. La parte del medio es donde  se inyectará la medicina.</td>
-                  <td><img src="../assets/images/image003.png" width="168" height="310"></td>
+                  <td align="left">- Elija sitio de punción dividiendo la nalga en 4 cuadrantes imaginarios. La línea vertical se extiende desde la creta ilíaca hasta el pliegue medio, hasta la parte lateral de la nalga. Localizar la parte superior externa del cuadrante superior externo. Es importante palpar la cresta ilíaca para que la zona está lo suficientemente alta. Los cálculos visuales sólo pueden dar como resultado una inyección que sea demasiado baja y lesión del paciente.</td>
+                  <td><img src="../assets/images/glut1.png"  height="300"></td>
                 </tr>
+
                 <tr>
-                  <td align="left">Limpie  el sitio, Presionándolo con el aplicador de alcohol; déjelo secar.</td>
-                  <td><img src="../assets/images/image004.jpg" width="162" height="158"></td>
+                  <td align="left">Realice asepsia de la piel con tórula de alcohol ( solo si no es una vacuna lo que se va a administrar, ya que en este caso no se debe realizar asepsia previa, debido a que el alcohol puede inactivar el producto)</td>
+                  <td><img src="../assets/images/glut2.png" height="300" alt=""></td>
                 </tr>
+
                 <tr>
-                  <td align="left"><p>Con sus dedos pulgar e índice, sostenga firmemente el músculo. <br><br>
-                        Coja la jeringa como se coge un lápiz e inserte rápidamente la    aguja a través de la piel en un ángulo     de 90 grados.</p>
-                  </td>
-                  <td><img src="../assets/images/image009.png" width="259" height="237"></td>
+                  <td align="left">Con una mano estire la piel en la zona elegida. Inserte la aguja en ángulo de 90º con un movimiento rápido y seguro</td>
+                  <td><img src="../assets/images/glut3.jpg" height="300" alt=""></td>
                 </tr>
+
                 <tr>
-                  <td align="left"><p>Succione suavemente con el émbolo para ver si sale sangre. Si    sale sangre, saque la aguja, deséchela junto con la jeringa, y empiece    nuevamente.<br><br>
-                   
-Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamente en el tejido.</td>
-                  <td><img src="../assets/images/image006.png" width="231" height="236"></td>
+                  <td align="left">Aspire la jeringa y asegúrese que no refluya sangre </td>
+                  <td><img src="../assets/images/glut4.jpg" height="300" alt=""></td>
                 </tr>
+
                 <tr>
-                  <td align="left">Después  de retirar la aguja, aplique un poco de presión sobre el sitio con una gasa  seca o un pañuelo de papel (kleenex), hasta que ya no sangre más.</td>
-                  <td><img src="../assets/images/image007.png" width="231" height="227"></td>
+                  <td align="left">inyecte lentamente la solución</td>
+                  <td><img src="../assets/images/glut5.png" height="300" alt=""></td>
                 </tr>
+
                 <tr>
-                  <td align="left">Lávese  bien las manos otra vez. Y deseche la aguja debidamente.</td>
+                  <td align="left">Retire la aguja con movimiento rápido, coloque una tórula seca y aplique masaje circular  ( solo si lo que se administrando no es un medicamento de depósito)</td>
+                  <td><img src="../assets/images/glut6.png" height="300" alt=""></td>
+                </tr>
+
+                
+            
+                <tr>
+                  <td align="left">Elimine el material sucio, lávese las manos y registre el procedimiento.</td>
                   <td><img src="../assets/images/image008.jpg" width="232" height="200"></td>
                 </tr>
                 <tr>
@@ -135,10 +143,11 @@ Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamen
                   <td align="center" valign="bottom"><strong>Indicaciones</strong></td>
                 </tr>
                 <tr>
-                  <td>Las  personas con trastornos de la coagulación o en tratamiento con anticoagulantes  pueden desarrollar hematomas en el lugar de la inyección, por lo que se informará  al paciente sobre este riesgo. Estos supuestos no contradicen la vacunación y,  en el caso, de precisar una vacuna cuya única vía es la intramuscular, se  utilizará una aguja fina (calibre igual o menor a 23 G) y se aplicará presión  local sin frotar durante al menos dos minutos.</td>
-                  <td><table cellspacing="0" cellpadding="0" hspace="0" vspace="0" align="left">
-                  </table>Admite hasta 2 ml de volumen.<br>
-                  E paciente puede estar prácticamente en todas  las posiciones: sedestación (sentado), decúbito supino, decúbito lateral o  bipedestación.</td>
+                  <td>No deben administrarse medicamentos por inyección intramuscular a personas que usen anticoagulantes o que tengan problemas con la coagulación de la sangre o con el número o con el funcionamiento de las plaquetas, ya que se pueden formar hematomas locales de gran severidad.<br><br>
+Además, se conocen bien los riesgos de la inyección en la región glútea en niños pequeños, debido al riesgo de lesionar el nervio ciático u otras estructuras descritas, por lo que debe evitarse inyectar en esta región en ellos.<br><br>
+Las inyecciones en cualquiera de los dos cuadrantes inferiores  pueden lesionar el nervio ciático, así como otros nervios y vasos que emergen por debajo del músculo piramidal de la pelvis, ubicado profundamente en la región.<br><br>
+</td>
+                  <td>El paciente deberá ser colocado boca abajo con los pies en rotación interna y en flexión plantar cuando se localice el sitio por palpación. Esta posición asegura la relajación del músculo mientras se aplica la inyección. No se debe usar la posición de pie o sentado porque es imposible la relajación del músculo y hay peligro de que una brusca contracción pudiera llegar a romper la aguja.</td>
                 </tr>
               </table>
 
@@ -149,72 +158,79 @@ Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamen
 
             <!-- 1 -->
 
-            <article class="content-box" data-tipo="vof" data-sol="f">
+            <article class="content-box" data-tipo="vof" data-sol="v">
               <h3 align="left" style="display:inline-block">1) Verdadero o falso </h3>
               <p class="texto">
-               Está tan cerca del nervio radial como de la arteria humeral profunda, por lo que no  existe ninguna posibilidad de lesionar al paciente.
+                El sitio recomendado es el cuadrante superior externo del área glútea, y puede localizarse trazando una línea desde la espina ilíaca postero-superior hasta el trocánter mayor del fémur.
               </p>       
               
               <a href="#" class="button" data-res="v">Verdadero</a>
               <a href="#" class="button" data-res="f">Falso</a>                         
             </article>
-
-            <article class="content-box" data-tipo="vof" data-sol="v">
-              <h3 align="left" style="display:inline-block">2) Verdadero o falso </h3>
-              <p class="texto">
-                Las personas con trastornos de la coagulación o en tratamiento con anticoagulantes pueden desarrollar hematomas en el lugar de la inyección.              
-              </p>       
-              
-              <a href="#" class="button" data-res="v">Verdadero</a>
-              <a href="#" class="button" data-res="f">Falso</a>                         
-            </article>
-
 
             <article class="content-box" data-tipo="vof" data-sol="f">
-              <h3 align="left" style="display:inline-block">3) Verdadero o falso </h3>
+              <h3 align="left" style="display:inline-block">2) Verdadero o falso </h3>
               <p class="texto">
-                Si la medicina en la jeringa tiene sangre, se debe inyecte toda la medicina lentamente en el tejido.              
-              </p>                     
+                Se debe administrarse medicamentos por inyección intramuscular a personas que usan anticoagulantes.              
+              </p>       
+              
               <a href="#" class="button" data-res="v">Verdadero</a>
               <a href="#" class="button" data-res="f">Falso</a>                         
             </article>
 
-            <!-- 3 -->
 
-            <article class="content-box" data-tipo="select">
-              <h3>4) El paciente puede puede estar en 3 de estas posiciones para poder aplicarle la inyección en el brazo:</h3>
-              <p class="texto">   
-                  <ul> 
-                    <li><input type="checkbox" value="1" class="ch1" />Sentado</li>   
-                    <li><input type="checkbox" value="0" class="ch1" />De Cuclillas</li> 
-                    <li><input type="checkbox" value="1" class="ch1" />De Cubito</li> 
-                    <li><input type="checkbox" value="0" class="ch1" />Parado de manos</li> 
-                    <li><input type="checkbox" value="1" class="ch1" />Supino</li> 
-                  </ul>   
-              </p>       
-              
-              <a href="#" class="button">Corregir</a>
-                         
-            </article>
-
-
-            <article class="content-box" data-tipo="image" data-sol="58421367">
-              <h3 align="left" style="display:inline-block">5) Ordene las imágenes: </h3>
+            <article class="content-box" data-tipo="image" data-sol="319485627">
+              <h3 align="left" style="display:inline-block">3) Ordene las imágenes: </h3>
               <p class="texto">
               </p>
               <ul id="imgtest">
-                <li><img src="../assets/imgtest/2/5.png" alt=""><br><input type="text" class="imageres"></li>
-                <li><img src="../assets/imgtest/2/8.jpg" alt=""><br><input type="text" class="imageres"></li>
-                <li><img src="../assets/imgtest/2/4.png" alt=""><br><input type="text" class="imageres"></li>
-                <li><img src="../assets/imgtest/2/2.jpg" alt=""><br><input type="text" class="imageres"></li>
-                <li><img src="../assets/imgtest/2/1.jpg" alt=""><br><input type="text" class="imageres"></li>
-                <li><img src="../assets/imgtest/2/3.jpg" alt=""><br><input type="text" class="imageres"></li>
-                <li><img src="../assets/imgtest/2/6.png" alt=""><br><input type="text" class="imageres"></li>
-                <li><img src="../assets/imgtest/2/7.png" alt=""><br><input type="text" class="imageres"></li>
+                <li><img src="../assets/imgtest/3/3.png" alt=""><br><input type="text" class="imageres"></li>
+                <li><img src="../assets/imgtest/3/1.jpg" alt=""><br><input type="text" class="imageres"></li>
+                <li><img src="../assets/imgtest/3/9.jpg" alt=""><br><input type="text" class="imageres"></li>
+                <li><img src="../assets/imgtest/3/4.png" alt=""><br><input type="text" class="imageres"></li>
+                <li><img src="../assets/imgtest/3/8.png" alt=""><br><input type="text" class="imageres"></li>
+                <li><img src="../assets/imgtest/3/5.jpg" alt=""><br><input type="text" class="imageres"></li>
+                <li><img src="../assets/imgtest/3/6.jpg" alt=""><br><input type="text" class="imageres"></li> 
+                <li><img src="../assets/imgtest/3/2.png" alt=""><br><input type="text" class="imageres"></li>
+                <li><img src="../assets/imgtest/3/7.png" alt=""><br><input type="text" class="imageres"></li>
 
               </ul>
               <a href="#" class="button">Corregir</a>
             </article>
+
+
+            <article class="content-box" data-tipo="vof" data-sol="v">
+              <h3 align="left" style="display:inline-block">4) Verdadero o falso </h3>
+              <p class="texto">
+                El paciente deberá ser colocado boca abajo con los pies en rotación interna y en flexión plantar cuando se localice el sitio por palpación.              </p>                     
+              <a href="#" class="button" data-res="v">Verdadero</a>
+              <a href="#" class="button" data-res="f">Falso</a>                         
+            </article>
+
+
+            <article class="content-box" data-tipo="vof" data-sol="v">
+              <h3 align="left" style="display:inline-block">5) Seleccione la imagen correcta </h3>
+              <p class="texto">
+                Cuál es el Angulo de punción que se utiliza en la administración de fármacos intramuscular
+              </p>       
+              
+              <a href="#" class="button" data-res="v"><img src="../assets/imgtest/v.jpg"/></a>
+              <a href="#" class="button" data-res="f"><img src="../assets/imgtest/f.jpg"/></a>                         
+            </article>
+
+            <!-- 3 -->
+            <article class="content-box" data-tipo="vof" data-sol="f">
+              <h3 align="left" style="display:inline-block">6) Verdadero o falso </h3>
+              <p class="texto">
+               Se elige el sitio de punción en cualquier área de la nalga sin importar la distancia que esta tenga con respecto al nervio ciático.
+             </p>
+              <a href="#" class="button" data-res="v">Verdadero</a>
+              <a href="#" class="button" data-res="f">Falso</a>                         
+            </article>
+
+
+
+            
 
             
 
@@ -259,14 +275,15 @@ Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamen
     cajas = $(".content-box");
     i = 0;
     puntuacion=0;
-    preguntas=5;
+    preguntas=6;
     
     cajas.eq(i).slideDown('slow');
     
     $(".button").click(function(){
+
       i++;
       var tipo = $(this).parent('.content-box').data('tipo');
-      
+     
       switch(tipo){
         case 'vof':
           var sol = $(this).parent('.content-box').data('sol'),
@@ -301,12 +318,12 @@ Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamen
         next();  
       }else{
         cajas.eq(preguntas).slideUp('slow');
-        if(puntuacion>=4){
+        if(puntuacion>=5){
           $(".aprovado").slideDown('slow');    
 
           $.ajax({
             url : "php/ajax.php",
-            data : {action:'nivelAprobado', nivel:'3', puntuacion:puntuacion},
+            data : {action:'nivelAprobado', nivel:'4', puntuacion:puntuacion},
             type : "POST",
             async : false,
             success : function(){
@@ -319,7 +336,7 @@ Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamen
             $(".reprovado").slideDown('slow');          
             $.ajax({
               url : "php/ajax.php",
-              data : {action:'nivelReprobado', nivel:'3', puntuacion:puntuacion},
+              data : {action:'nivelReprobado', nivel:'4', puntuacion:puntuacion},
               type : "POST",
               async : false,
               success : function(){
@@ -332,14 +349,13 @@ Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamen
 
       $(".reprovado .button").click(function(e){
         e.preventDefault();
-        window.location.href = "nivel3.php?denuevo";
+        window.location.href = "nivel4.php?denuevo";
       });
 
       $(".aprovado .button").click( function(e){
         e.preventDefault();        
-        window.location.href = "e2.php";
+        window.location.href = "index.php?goto=3";
       });
-      
     });
 
 

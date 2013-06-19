@@ -17,6 +17,14 @@
 						VALUES ('$id', '$nivel', '$nota', 'si')";
 			mysql_query($query) or die(mysql_errno());
 			break;
+		case 'nivelReprobado':
+			$nivel = $_POST['nivel'];
+			$nota =  $_POST['puntuacion'];
+
+			$query = "INSERT INTO notas (usuario_id, evaluacion_id, nota, estado)
+						VALUES ('$id', '$nivel', '$nota', 'no')";
+			mysql_query($query) or die(mysql_errno());
+			break;
 	}
 
 

@@ -275,12 +275,23 @@ Y como profesión, la enfermería requiere del conocimiento y apoyo de las cienc
             type : "POST",
             async : false,
             success : function(){
-
+                puntuacion = -9999;
             }
           })
 
         }else{
-          $(".reprovado").slideDown('slow');
+          if(puntuacion!= -9999){
+            $(".reprovado").slideDown('slow');
+            $.ajax({
+              url : "php/ajax.php",
+              data : {action:'nivelReprobado', nivel:'1', puntuacion:puntuacion},
+              type : "POST",
+              async : false,
+              success : function(){
+
+              }
+            });
+          }
         }
       }
 
