@@ -1170,3 +1170,16 @@ table.fc-border-separate {
 	max-width: 150px;
 	max-height: 150px;
 }
+
+
+/*  20130624 */
+
+.enfermera{
+	display: inline-block;
+	float: right;
+	margin: 30px;
+}
+
+.content-box{
+	min-height: 380px;
+}

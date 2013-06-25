@@ -8,6 +8,10 @@
   $result = mysql_query($query);
   $evaluaciones = mysql_fetch_object($result);
 
+if($nivel != 0){
+  header("Location: index.php?ref=nivel1");
+  exit;
+}
   
 ?>
 <!DOCTYPE html>
@@ -63,31 +67,11 @@
             <article class="content-box" data-tipo="start">
               <h3 align="center">Enfermería.</h3>
               <!-- ENFERMERA INICIO -->
-                  <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="300" height="300">
-                      <param name="movie" value="../assets/images/bienvenida.swf">
-                      <param name="quality" value="high">
-                      <param name="wmode" value="opaque">
-                      <param name="swfversion" value="6.0.65.0">
-                      <!-- Esta etiqueta param indica a los usuarios de Flash Player 6.0 r65 o posterior que descarguen la versión más reciente de Flash Player. Elimínela si no desea que los usuarios vean el mensaje. -->
-                      <param name="expressinstall" value="../assets/scripts/expressInstall.swf">
-                      <!-- La siguiente etiqueta object es para navegadores distintos de IE. Ocúltela a IE mediante IECC. -->
-                      <!--[if !IE]>-->
-                      <object type="application/x-shockwave-flash" data="../assets/images/bienvenida.swf" width="300" height="300">
-                        <!--<![endif]-->
-                        <param name="quality" value="high">
-                        <param name="wmode" value="opaque">
-                        <param name="swfversion" value="6.0.65.0">
-                        <param name="expressinstall" value="../assets/scripts/expressInstall.swf">
-                        <!-- El navegador muestra el siguiente contenido alternativo para usuarios con Flash Player 6.0 o versiones anteriores. -->
-                        <div>
-                          <h4>El contenido de esta página requiere una versión más reciente de Adobe Flash Player.</h4>
-                          <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Obtener Adobe Flash Player" width="112" height="33" /></a></p>
-                        </div>
-                        <!--[if !IE]>-->
-                      </object>
-                      <!--<![endif]-->
-                  </object>
-                  <!-- ENFERMERA FIN -->
+              <? 
+                  $enfermera = "bienvenida"; 
+                  include "php/enfermera.php";  
+              ?>
+              <!-- ENFERMERA FIN -->
                                   <img src="../assets/images/fea_language.jpg" class="img right m300" style="height:270px">
 
               <p class="texto">
@@ -114,6 +98,12 @@ Y como profesión, la enfermería requiere del conocimiento y apoyo de las cienc
 
             <article class="content-box" data-tipo="vof" data-sol="f">
               <h3 align="left" style="display:inline-block">1) Verdadero o falso </h3>
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
               <p class="texto">
                 El profesional en enfermería debe tener conocimiento de las ciencias biológicas, físicas, antropológicas y psicosociales médicas para poder llevar a cabo el ejercicio responsable de dicha profesión.
 
@@ -130,6 +120,16 @@ Y como profesión, la enfermería requiere del conocimiento y apoyo de las cienc
 
             <article class="content-box" data-tipo="select">
               <h3>2) Se considera la enfermería como:</h3>
+
+
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
+
+
               <p class="texto">   
                   <ul> 
                     <li><input type="checkbox" value="1" class="ch1" />Ciencia</li>   
@@ -147,7 +147,16 @@ Y como profesión, la enfermería requiere del conocimiento y apoyo de las cienc
             <!-- 3 -->
 
             <article class="content-box" data-tipo="vof" data-sol="v">
-              <h3 align="left" style="display:inline-block">3) </h3>
+              <h3 align="left" style="display:inline-block">3)  Verdadero o falso </h3>
+
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
+
+
               <p class="texto">
                 La enfermería como profesión debe tener bases éticas, organización interna y autonomía.
               </p>       
@@ -160,7 +169,16 @@ Y como profesión, la enfermería requiere del conocimiento y apoyo de las cienc
             <!-- 4 -->
 
             <article class="content-box" data-tipo="vof" data-sol="f">
-              <h3 align="left" style="display:inline-block">4) </h3>
+              <h3 align="left" style="display:inline-block">4) Verdadero o falso </h3>
+
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
+
+
               <p class="texto">
                 La enfermería es una profesión que se basa en conocimientos teóricos propios y posee una base en biología  </p>       
               
@@ -171,7 +189,16 @@ Y como profesión, la enfermería requiere del conocimiento y apoyo de las cienc
             <!-- 5 -->
 
             <article class="content-box" data-tipo="vof" data-sol="v">
-              <h3 align="left" style="display:inline-block">5) </h3>
+              <h3 align="left" style="display:inline-block">5) Verdadero o falso </h3>
+
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
+
+
               <p class="texto">
                 Deberá poseer habilidades y vocación para llevar a cabo tratamientos de enfermedades reales o potenciales.
               </p>       
@@ -185,7 +212,16 @@ Y como profesión, la enfermería requiere del conocimiento y apoyo de las cienc
 
             <article class="content-box" data-tipo="vof" data-sol="v">
 
-              <h3 align="left" style="display:inline-block">6) </h3>
+              <h3 align="left" style="display:inline-block">6) Verdadero o falso </h3>
+
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
+
+
               <p class="texto">
                 El profesional en enfermería debe preocuparse por el estado psicosocial del paciente       
               </p>       
@@ -196,25 +232,30 @@ Y como profesión, la enfermería requiere del conocimiento y apoyo de las cienc
             </article>
 
             <article class="content-box aprovado">
-
               <h3 align="left" style="display:inline-block">Felicitaciones</h3>
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
               <p class="texto">
                 Has aprovado este nivel, ya puedes comenzar el siguiente.       
-              </p>      
-              
-              <a href="#" class="button">Finalizar</a>
-                         
+              </p>                    
+              <a href="#" class="button">Finalizar</a>                         
             </article>
-
              <article class="content-box reprovado">
-
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
               <h3 align="left" style="display:inline-block">Intenta nuevamente</h3>
               <p class="texto">
                 Has hecho un gran esfuerzo, pero necesitas un poco mas para aprovar este nivel.       
-              </p>      
-              
-              <a href="#" class="button">Intentar de nuevo</a>
-                         
+              </p>                    
+              <a href="#" class="button">Intentar de nuevo</a>                         
             </article>
 
 
@@ -282,7 +323,7 @@ Y como profesión, la enfermería requiere del conocimiento y apoyo de las cienc
         }else{
           if(puntuacion!= -9999){
             $(".reprovado").slideDown('slow');
-            $.ajax({
+            /*$.ajax({
               url : "php/ajax.php",
               data : {action:'nivelReprobado', nivel:'1', puntuacion:puntuacion},
               type : "POST",
@@ -290,7 +331,7 @@ Y como profesión, la enfermería requiere del conocimiento y apoyo de las cienc
               success : function(){
 
               }
-            });
+            });*/
           }
         }
       }
@@ -314,6 +355,20 @@ Y como profesión, la enfermería requiere del conocimiento y apoyo de las cienc
 			cajas.eq(i).slideDown('slow');
 		}
 	});
+
+var chmax = 3, currentch = 0;
+$('.ch1').click(function(){
+  if($(this).is(":checked")){
+    if(currentch<chmax){
+      currentch++;
+    }else{
+      $(this).attr('checked', false);
+      alert("Solo puede elegir 3 opciones.");
+    }
+  }else{
+    currentch--;
+  }
+});
 	
 	
 </script>

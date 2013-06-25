@@ -15,15 +15,17 @@ $r = mysql_query($query);
 $alumno = mysql_fetch_object($r);
 
 
-$qnotas = "SELECT n.id, n.nota, n.estado, n.fecha, e.evaluacion
+
+$qnotas = "SELECT n.id, n.nota, n.estado, n.fecha, e.evaluacion, e.preguntas
 FROM notas n
 LEFT JOIN evaluaciones e ON e.id = n.evaluacion_id
 WHERE n.usuario_id = '$id'";
 
 $rnotas = mysql_query($qnotas);
 
-
-
+function porcentaje($i, $max){
+  return round(100/$max * $i,2)." %";
+}
 
 ?>
 <!DOCTYPE html>
@@ -122,7 +124,7 @@ $rnotas = mysql_query($qnotas);
                 <? while($notas = mysql_fetch_object($rnotas)){ ?>
                 <tr>
                   <td><? echo utf8_encode($notas->evaluacion); ?></td>
-                  <td><? echo $notas->nota; ?></td>
+                  <td><? echo porcentaje($notas->nota, $notas->preguntas); ?></td>
                   <td><? echo ($notas->estado=='si')?"Aprobado":"Reprobado"; ?></td>
                 </tr>
                 <? } ?>

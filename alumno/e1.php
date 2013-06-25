@@ -63,30 +63,10 @@
               <tr>
                 <td align="center" colspan="2">
                   <!-- ENFERMERA INICIO -->
-                  <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="300" height="300">
-                      <param name="movie" value="../assets/images/bienvenida.swf">
-                      <param name="quality" value="high">
-                      <param name="wmode" value="opaque">
-                      <param name="swfversion" value="6.0.65.0">
-                      <!-- Esta etiqueta param indica a los usuarios de Flash Player 6.0 r65 o posterior que descarguen la versión más reciente de Flash Player. Elimínela si no desea que los usuarios vean el mensaje. -->
-                      <param name="expressinstall" value="../assets/scripts/expressInstall.swf">
-                      <!-- La siguiente etiqueta object es para navegadores distintos de IE. Ocúltela a IE mediante IECC. -->
-                      <!--[if !IE]>-->
-                      <object type="application/x-shockwave-flash" data="../assets/images/bienvenida.swf" width="300" height="300">
-                        <!--<![endif]-->
-                        <param name="quality" value="high">
-                        <param name="wmode" value="opaque">
-                        <param name="swfversion" value="6.0.65.0">
-                        <param name="expressinstall" value="../assets/scripts/expressInstall.swf">
-                        <!-- El navegador muestra el siguiente contenido alternativo para usuarios con Flash Player 6.0 o versiones anteriores. -->
-                        <div>
-                          <h4>El contenido de esta página requiere una versión más reciente de Adobe Flash Player.</h4>
-                          <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Obtener Adobe Flash Player" width="112" height="33" /></a></p>
-                        </div>
-                        <!--[if !IE]>-->
-                      </object>
-                      <!--<![endif]-->
-                  </object>
+                  <? 
+                      $enfermera = "bienvenida"; 
+                      include "php/enfermera.php";  
+                  ?>
                   <!-- ENFERMERA FIN -->
 
                </td> 
@@ -94,7 +74,7 @@
             </tr>
             <tr>
             
-            <? if($nivel>=0){ $link = "nivel1.php";}else{$link = "#no";} ?>
+            <? if($nivel==0){ $link = "nivel1.php";}else{$link = "#no";} ?>
 
               <td align="center">
                 <div class="col-1" id="login-form">
@@ -109,7 +89,7 @@
                 </div>
               </td>
 
-              <? if($nivel>=1){ $link = "nivel2.php";}else{$link = "#no";} ?>
+              <? if($nivel==1){ $link = "nivel2.php";}else{$link = "#no";} ?>
 
               <td align="center">
                 <div class="col-1" id="login-form">

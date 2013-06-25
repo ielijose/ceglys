@@ -46,11 +46,9 @@
           <section id="content"><div class="ic">Ceglys Afanador @ ceglysafanador.com.ve Junio, 2013!</div>
                 <div class="container_12" style="margin:10px auto; width 100%;">  
 
-              <? if(isset($_GET['ref']) && ($_GET['ref']=='docente')){ ?>  
                   <div style="width:400px; margin:0 auto;">
                     <h1>Registro Exitoso</h1><hr>                        
                   </div> 
-              <? }?>          
                   
                   
                 </div>

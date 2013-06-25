@@ -72,7 +72,7 @@
   <div class="main">
         <!-- Header -->
     <header>
-          <? require "assets/nav.php"; ?>
+          <? $p=2; require "assets/nav.php"; ?>
           <div class="clear"></div>
     </header>
         <!-- Slider -->

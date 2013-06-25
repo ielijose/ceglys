@@ -8,6 +8,11 @@
   $result = mysql_query($query);
   $evaluaciones = mysql_fetch_object($result);
 
+if($nivel != 1){
+  header("Location: index.php?ref=nivel2");
+  exit;
+}
+  
   
 ?>
 <!DOCTYPE html>
@@ -98,38 +103,16 @@ La administración de medicamentos son actividades de enfermería que se realiza
 Antes de realizar la administración de fármacos se deben revisar los 5 correctos presentados a continuación:
 Los cinco correctos para la administración de medicamentos, le permiten al personal enfermero que va a administrar una medicación, seguir algunas precauciones estándares, para evitar o minimizar al máximo la posibilidad de un error al utilizarlos el enfermero se asegura de cumplir algunas pautas para la administración que ya están prestablecidas y que lo guían para un mejor proceder.
 
-<br><br>
-<strong>Video</strong><br>
-<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="640" height="480" id="FLVPlayer">
-  <param name="movie" value="FLVPlayer_Progressive.swf" />
-  <param name="quality" value="high">
-  <param name="wmode" value="opaque">
-  <param name="scale" value="noscale">
-  <param name="salign" value="lt">
-  <param name="FlashVars" value="&amp;MM_ComponentVersion=1&amp;skinName=Clear_Skin_3&amp;streamName=../assets/videos/ab&amp;autoPlay=false&amp;autoRewind=false" />
-  <param name="swfversion" value="8,0,0,0">
-  <!-- Esta etiqueta param indica a los usuarios de Flash Player 6.0 r65 o posterior que descarguen la versión más reciente de Flash Player. Elimínela si no desea que los usuarios vean el mensaje. -->
-  <param name="expressinstall" value="Scripts/expressInstall.swf">
-  <!-- La siguiente etiqueta object es para navegadores distintos de IE. Ocúltela a IE mediante IECC. -->
-  <!--[if !IE]>-->
-  <object type="application/x-shockwave-flash" data="FLVPlayer_Progressive.swf" width="640" height="480">
-    <!--<![endif]-->
-    <param name="quality" value="high">
-    <param name="wmode" value="opaque">
-    <param name="scale" value="noscale">
-    <param name="salign" value="lt">
-    <param name="FlashVars" value="&amp;MM_ComponentVersion=1&amp;skinName=Clear_Skin_3&amp;streamName=../assets/videos/ab&amp;autoPlay=false&amp;autoRewind=false" />
-    <param name="swfversion" value="8,0,0,0">
-    <param name="expressinstall" value="Scripts/expressInstall.swf">
-    <!-- El navegador muestra el siguiente contenido alternativo para usuarios con Flash Player 6.0 o versiones anteriores. -->
-    <div>
-      <h4>El contenido de esta página requiere una versión más reciente de Adobe Flash Player.</h4>
-      <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Obtener Adobe Flash Player" /></a></p>
+
+    <!-- VIDEO INICIO -->
+    <div class="enfermera">
+    <? $video = "ab"; 
+    include "php/video.php";?>
     </div>
-    <!--[if !IE]>-->
-  </object>
-  <!--<![endif]-->
-</object>
+    <!-- VIDEO FIN -->
+
+
+
               </p>       
               
               <a href="#" class="button"> Empezar Test--> </a>
@@ -142,6 +125,14 @@ Los cinco correctos para la administración de medicamentos, le permiten al pers
 
             <article class="content-box" data-tipo="vof" data-sol="v">
               <h3 align="left" style="display:inline-block">1) Verdadero o falso </h3>
+
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
+
               <p class="texto">
                 Un fármaco actúa como determinados sistemas orgánicos modificando su comportamiento.
               </p>       
@@ -152,6 +143,15 @@ Los cinco correctos para la administración de medicamentos, le permiten al pers
 
             <article class="content-box" data-tipo="vof" data-sol="f">
               <h3 align="left" style="display:inline-block">2) Verdadero o falso </h3>
+
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
+
+
               <p class="texto">
                 La administración de medicamentos son actividades de enfermería que se realizan sin necesidad de prescripción médica              
               </p>       
@@ -164,6 +164,15 @@ Los cinco correctos para la administración de medicamentos, le permiten al pers
 
             <article class="content-box" data-tipo="select">
               <h3>3) •  Un fármaco es utilizado en …… y cura de una enfermedad:</h3>
+
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
+
+
               <p class="texto">   
                   <ul> 
                     <li><input type="checkbox" value="1" class="ch1" />La Prevención</li>   
@@ -181,7 +190,16 @@ Los cinco correctos para la administración de medicamentos, le permiten al pers
             <!-- 4 -->
 
             <article class="content-box" data-tipo="vof" data-sol="f">
-              <h3 align="left" style="display:inline-block">4) </h3>
+              <h3 align="left" style="display:inline-block">4) Verdadero o falso </h3>
+
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
+
+
               <p class="texto">
                   Los aspectos legales que involucran una mala práctica de la administración de medicamentos no le competen al profesional de enfermería.              
                 </p>       
@@ -194,7 +212,16 @@ Los cinco correctos para la administración de medicamentos, le permiten al pers
             <!-- 5 -->
 
             <article class="content-box" data-tipo="vof" data-sol="v">
-              <h3 align="left" style="display:inline-block">5) </h3>
+              <h3 align="left" style="display:inline-block">5) Verdadero o falso</h3>
+
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
+
+
               <p class="texto">
                 Un fármaco es utilizado para evitar la aparición de un proceso fisiológico no deseado
               </p>
@@ -204,6 +231,15 @@ Los cinco correctos para la administración de medicamentos, le permiten al pers
 
             <article class="content-box" data-tipo="image" data-sol="45312">
               <h3 align="left" style="display:inline-block">6) indica cual es el orden de los 5 correctos. </h3>
+
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
+
+
               <p class="texto">
               </p>
               <ul id="imgtest">
@@ -220,7 +256,16 @@ Los cinco correctos para la administración de medicamentos, le permiten al pers
             <!-- 6 -->
 
             <article class="content-box" data-tipo="vof" data-sol="f">
-              <h3 align="left" style="display:inline-block">7) </h3>
+              <h3 align="left" style="display:inline-block">7) Verdadero o falso</h3>
+
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
+
+
               <p class="texto">
                 El enfermero debe asegurarse que la medicación este siendo suministrada antes y después del horario.              </p>       
               
@@ -229,11 +274,20 @@ Los cinco correctos para la administración de medicamentos, le permiten al pers
                          
             </article>
 
-            <!-- 6 -->
+            <!-- 8 -->
 
             <article class="content-box" data-tipo="vof" data-sol="v">
 
-              <h3 align="left" style="display:inline-block">8) </h3>
+              <h3 align="left" style="display:inline-block">8) Verdadero o falso</h3>
+
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
+
+
               <p class="texto">
                   Los cinco correctos para la administración de medicamentos, permiten seguir algunas precauciones estándares, para evitar o minimizar al máximo la posibilidad de un error.       
               </p>       
@@ -245,25 +299,31 @@ Los cinco correctos para la administración de medicamentos, le permiten al pers
 
 
             <article class="content-box aprovado">
-
               <h3 align="left" style="display:inline-block">Felicitaciones</h3>
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
               <p class="texto">
                 Has aprovado este nivel, ya puedes comenzar el siguiente.       
-              </p>      
-              
-              <a href="#" class="button">Finalizar</a>
-                         
+              </p>                    
+              <a href="#" class="button">Finalizar</a>                         
             </article>
 
-             <article class="content-box reprovado">
-
+            <article class="content-box reprovado">
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
               <h3 align="left" style="display:inline-block">Intenta nuevamente</h3>
               <p class="texto">
                 Has hecho un gran esfuerzo, pero necesitas un poco mas para aprovar este nivel.       
-              </p>      
-              
-              <a href="#" class="button">Intentar de nuevo</a>
-                         
+              </p>                    
+              <a href="#" class="button">Intentar de nuevo</a>                         
             </article>
 
 
@@ -345,7 +405,7 @@ swfobject.registerObject("FLVPlayer");
         }else{
           if(puntuacion!= -9999){
             $(".reprovado").slideDown('slow');
-            $.ajax({
+           /* $.ajax({
               url : "php/ajax.php",
               data : {action:'nivelReprobado', nivel:'2', puntuacion:puntuacion},
               type : "POST",
@@ -353,7 +413,7 @@ swfobject.registerObject("FLVPlayer");
               success : function(){
 
               }
-            });
+            });*/
           }
         }
       }
@@ -376,6 +436,20 @@ swfobject.registerObject("FLVPlayer");
 			cajas.eq(i-1).slideUp('slow');
 			cajas.eq(i).slideDown('slow');
 		}
+
+var chmax = 3, currentch = 0;
+$('.ch1').click(function(){
+  if($(this).is(":checked")){
+    if(currentch<chmax){
+      currentch++;
+    }else{
+      $(this).attr('checked', false);
+      alert("Solo puede elegir 3 opciones.");
+    }
+  }else{
+    currentch--;
+  }
+});
 	});
 	
 	

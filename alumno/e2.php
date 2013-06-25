@@ -91,7 +91,7 @@
             </tr>
             <tr>
             
-            <? if($nivel>=2){ $link = "nivel3.php";}else{$link = "#no";} ?>
+            <? if($nivel==2){ $link = "nivel3.php";}else{$link = "#no";} ?>
 
               <td align="center">
                 <div class="col-1" id="login-form">
@@ -106,7 +106,7 @@
                 </div>
               </td>
 
-              <? if($nivel>=3){ $link = "nivel4.php";}else{$link = "#no";} ?>
+              <? if($nivel==3){ $link = "nivel4.php";}else{$link = "#no";} ?>
 
               <td align="center">
                 <div class="col-1" id="login-form">

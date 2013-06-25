@@ -15,6 +15,9 @@ WHERE tipo = 'Alumno' ".$i;
 
 $r = mysql_query($query);
 
+function porcentaje($i, $max){
+  return round(100/$max * $i,2)." %";
+}
 
 ?>
 <!DOCTYPE html>
@@ -63,7 +66,7 @@ $r = mysql_query($query);
   <div class="main">
         <!-- Header -->
     <header>
-          <? require "php/nav.php"; ?>
+          <? $p=2; require "php/nav.php"; ?>
           <div class="clear"></div>
     </header>
         <!-- Slider -->
@@ -112,16 +115,44 @@ $r = mysql_query($query);
                   <td><strong>Promedio</strong></td>
                   <td><strong>Ver</strong></td>
                 </tr>
-                <? $total=0; $i=0; while($alumnos = mysql_fetch_object($r)){ $total = $total+$alumnos->promedio;$i++;  ?>
+                <? $total=0; $i=0; 
+                while($alumnos = mysql_fetch_object($r)){ 
+                  
+
+                  $prom = 0; $cprom=0;
+                  $id = $alumnos->id;
+
+               $qnotas = "SELECT n.id, n.nota, n.estado, n.fecha, e.evaluacion, e.preguntas
+                FROM notas n
+                LEFT JOIN evaluaciones e ON e.id = n.evaluacion_id
+                WHERE n.usuario_id = '$id'";
+
+                $rnotas = mysql_query($qnotas);
+
+                while($notas = mysql_fetch_object($rnotas)){ 
+                  $cprom++;
+                  $prom =$prom+(int)porcentaje($notas->nota, $notas->preguntas);                
+                } 
+
+                if($cprom>0){
+                  $prom = $prom / $cprom;
+                }
+
+                $prom = number_format($prom, 2, '.', '');
+
+                $total += $prom;$i++;  
+
+
+                ?>
                 <tr>
                   <td><? echo $alumnos->nombre; ?></td>
-                  <td><? echo $alumnos->promedio; ?></td>
+                  <td><? echo $prom." %"; ?></td>
                   <td><a href="alumno.php?id=<? echo $alumnos->id; ?>">Ver </a></td>
                 </tr>
                 <? } ?>
               </table>
               <br>
-              <p>Promedio de alumnos: <? echo $total/$i; ?></p>
+              <p>Promedio de alumnos: <? echo number_format($total/$i, 2, '.', '')." %"; ?></p>
             </article>
           </div>
     </section>

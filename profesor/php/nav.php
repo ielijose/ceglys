@@ -3,8 +3,8 @@
 <nav>
 
     <ul class="sf-menu">
-        <li class="current"><a href="index.php">INICIO</a></li>
-        <li><a href="promedios.php">Promedios</a></li>
+        <li class="<? if($p==1){echo "current";}?>"><a href="index.php">INICIO</a></li>
+        <li class="<? if($p==2){echo "current";}?>"><a href="promedios.php">Promedios</a></li>
 
 
         <li><a href="../salir.php">SALIR</a></li>

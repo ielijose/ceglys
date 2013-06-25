@@ -20,13 +20,22 @@
       $usuario = $_POST['usuario'];
       $password = $_POST['pass'];
 
-      $insertSQL = sprintf("INSERT INTO usuarios (nombre, ci, usuario, password, tipo) VALUES (%s, %s, %s, %s, 'docente')",
-                    GetSQLValueString($nombre, 'text'), GetSQLValueString($cedula, 'text'), 
-                    GetSQLValueString($usuario, 'text'), GetSQLValueString($password, 'text'));
+      $query = "SELECT * from usuarios WHERE usuario ='$usuario'";
+      $r = mysql_query($query);
+      $count = mysql_fetch_object($r);
 
-      mysql_query($insertSQL) or die(mysql_errno().$insertSQL);
+      if($count){
+        $repetido=true;        
+      }else{
 
-      header("Location: exito.php?ref=docente");
+        $insertSQL = sprintf("INSERT INTO usuarios (nombre, ci, usuario, password, tipo) VALUES (%s, %s, %s, %s, 'profesor')",
+                      GetSQLValueString($nombre, 'text'), GetSQLValueString($cedula, 'text'), 
+                      GetSQLValueString($usuario, 'text'), GetSQLValueString($password, 'text'));
+
+        mysql_query($insertSQL) or die(mysql_errno().$insertSQL);
+
+        header("Location: exito.php?ref=docente");
+      }
 
       break;
     
@@ -77,7 +86,7 @@
   <div class="main">
         <!-- Header -->
     <header>
-          <? require "assets/nav.php"; ?>
+          <? $p=3; require "assets/nav.php"; ?>
           <div class="clear"></div>
     </header>
         <!-- Slider -->
@@ -85,9 +94,13 @@
         <!-- :Slider -->
         <!-- Content -->
           <section id="content"><div class="ic">Ceglys Afanador @ ceglysafanador.com.ve Junio, 2013!</div>
-                <div class="container_12" style="margin:10px;">  
+                <div class="container_12" style="margin:10px;"> 
+<? if($repetido){
+                        echo "<h1 align='center' style='color:red'>El nombre de usuario ya esta en uso, intente nuevamente.</h1> <br><br>";
+                    } ?>
 
               <? if($continuar){ ?>  
+              
                   <form action="?" method="POST" style="width:400px; margin:0 auto;" name="registro" id="registro">
                                      <h1>Registro Docente</h1><hr>    
                     <table align="center" >

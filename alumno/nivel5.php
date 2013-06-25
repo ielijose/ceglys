@@ -8,6 +8,12 @@
   $result = mysql_query($query);
   $evaluaciones = mysql_fetch_object($result);
 
+  if($nivel != 4){
+  header("Location: index.php?ref=nivel5");
+  exit;
+}
+  
+
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -128,10 +134,21 @@
                 </tr>
                 <tr>
                   <td>Esta  administración está contraindicada en casos en los que el medicamento esté  comercializado en forma oral y el paciente pueda tomarlo. Y también cuando  existan problemas en la coagulación sanguínea.</td>
-                  <td><table cellspacing="0" cellpadding="0" hspace="0" vspace="0" align="left">
-                  </table>
+                  <td>
                   Para  la preparación es necesario comprobar si no hay alergias; comprobar la orden de  medicación; preparar la dosis correcta del fármaco; si se utiliza un vial de  más de un uso, limpiar la medrana de plástico con alcohol; desechar toda aguja  que contacte con la membrana del vial o paredes; nunca usar un medicamento  turbio, con color alterado o precipitado, a menos que las indicaciones del  fabricante expresen que el hacerlo así no es peligroso; revisar la jeringa ya  que el émbolo debe deslizarse por el tubo sin obstáculos. El manguito de la  aguja debe encajar en la jeringa a la perfección; la aguja debe estar lista y  recta; cubrir la aguja con su cubierta (después de la preparación).Desechar  correctamente los residuos (evitando contactar con aguja)</td>
                 </tr>
+
+                <tr>
+                  <td colspan="2">
+                  <!-- VIDEO INICIO -->
+                    <div class="">
+                    <? $video = "ab"; 
+                    include "php/video.php";?>
+                    </div>
+                    <!-- VIDEO FIN -->
+                  </td>
+                </tr>
+
               </table>
             <p class="texto">
               <a href="#" class="button"> Empezar Test--> </a>
@@ -142,6 +159,15 @@
 
             <article class="content-box" data-tipo="vof" data-sol="v">
               <h3 align="left" style="display:inline-block">1) Verdadero o falso </h3>
+
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
+
+
               <p class="texto">
                 Se administrará medicamentos por vía intravenosa cuando se desea tratar con brevedad procesos de alta gravedad
               </p>       
@@ -152,6 +178,15 @@
 
             <article class="content-box" data-tipo="vof" data-sol="f">
               <h3 align="left" style="display:inline-block">2) Verdadero o falso </h3>
+
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
+
+
               <p class="texto">
                 La administración de fármacos intravenosa consiste en conducir medicamentos en el torrente muscular del paciente.
               </p>       
@@ -164,6 +199,15 @@
 
             <article class="content-box" data-tipo="image" data-sol="5273416">
               <h3 align="left" style="display:inline-block">3) Ordene las imágenes: </h3>
+
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
+
+
               <p class="texto">
               </p>
               <ul id="imgtest">
@@ -183,6 +227,15 @@
 
             <article class="content-box" data-tipo="vof" data-sol="v">
               <h3 align="left" style="display:inline-block">4) Seleccione la imagen correcta </h3>
+
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
+
+
               <p class="texto">
               </p>       
               
@@ -192,7 +245,16 @@
 
 
             <article class="content-box" data-tipo="vof" data-sol="f">
-              <h3 align="left" style="display:inline-block">5) </h3>
+              <h3 align="left" style="display:inline-block">5) Verdadero o falso</h3>
+
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
+
+
               <p class="texto">
                En la administración de fármacos intravenosa se debe introducir  el medicamento rápidamente, sin observar la reaccion del paciente.                
              </p>                     
@@ -203,7 +265,16 @@
             <!-- 5 -->
 
             <article class="content-box" data-tipo="vof" data-sol="v">
-              <h3 align="left" style="display:inline-block">6) </h3>
+              <h3 align="left" style="display:inline-block">6) Verdadero o falso</h3>
+
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
+
+
               <p class="texto">
                 Esta técnica se utiliza para medicamentos cuya administración por otras vías está contraindicada.              </p>
               <a href="#" class="button" data-res="v">Verdadero</a>
@@ -211,25 +282,31 @@
             </article>
 
             <article class="content-box aprovado">
-
               <h3 align="left" style="display:inline-block">Felicitaciones</h3>
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
               <p class="texto">
                 Has aprovado este nivel, ya puedes comenzar el siguiente.       
-              </p>      
-              
-              <a href="#" class="button">Finalizar</a>
-                         
+              </p>                    
+              <a href="#" class="button">Finalizar</a>                         
             </article>
 
-             <article class="content-box reprovado">
-
+            <article class="content-box reprovado">
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
               <h3 align="left" style="display:inline-block">Intenta nuevamente</h3>
               <p class="texto">
                 Has hecho un gran esfuerzo, pero necesitas un poco mas para aprovar este nivel.       
-              </p>      
-              
-              <a href="#" class="button">Intentar de nuevo</a>
-                         
+              </p>                    
+              <a href="#" class="button">Intentar de nuevo</a>                         
             </article>
 
 
@@ -309,7 +386,7 @@
         }else{
           if(puntuacion!= -9999){
             $(".reprovado").slideDown('slow');          
-            $.ajax({
+            /*$.ajax({
               url : "php/ajax.php",
               data : {action:'nivelReprobado', nivel:'5', puntuacion:puntuacion},
               type : "POST",
@@ -317,14 +394,14 @@
               success : function(){
 
               }
-            });
+            });*/
           }
         }
       }
 
       $(".reprovado .button").click(function(e){
         e.preventDefault();
-        window.location.href = "nivel4.php?denuevo";
+        window.location.href = "nivel5.php?denuevo";
       });
 
       $(".aprovado .button").click( function(e){

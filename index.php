@@ -29,7 +29,7 @@
   <div class="main">
         <!-- Header -->
     <header>
-          <? require "assets/nav.php"; ?>
+          <? $p=1; require "assets/nav.php"; ?>
           <div class="clear"></div>
     </header>
         <!-- Slider -->
@@ -82,7 +82,7 @@
                 </td>
 
 
-                <td align="right">
+                <td align="right" colspan="2">
                   <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="300" height="300">
                       <param name="movie" value="assets/images/bienvenida.swf">
                       <param name="quality" value="high">
@@ -134,7 +134,20 @@
                   </figure>
                   <h5 align="left">AdministraciÓn de farmacos POR vÍa  intravenosa</h5>
                 </div>
-              </td>               
+              </td>    
+
+              <td>
+                <div class="col-1" id="login-form">
+                  <figure class="img-box">
+                    <div align="center">
+                      <img src="assets/images/heridas.png" alt="" width="191" >
+                    </div>
+                  </figure>
+                  <a href="<?  echo $link; ?>">
+                    <h5 align="left">Heridas abiertas</h5>
+                  </a>
+                </div>
+              </td>            
                 
               </tr>
               </table>              

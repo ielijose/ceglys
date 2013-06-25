@@ -7,7 +7,11 @@
           WHERE n.usuario_id = '$id'";
   $result = mysql_query($query);
   $evaluaciones = mysql_fetch_object($result);
-
+if($nivel != 3){
+  header("Location: index.php?ref=nivel4");
+  exit;
+}
+  
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -100,7 +104,7 @@
                 </tr>
                 <tr>
                   <td align="left">  Lávese la manos</td>
-                  <td><img src="../assets/images/image008.jpg" width="291" height="251"></td>
+                  <td><img src="../assets/images/image002.png" width="291" height="251"></td>
                 </tr>
                 <tr>
                   <td align="left">- Elija sitio de punción dividiendo la nalga en 4 cuadrantes imaginarios. La línea vertical se extiende desde la creta ilíaca hasta el pliegue medio, hasta la parte lateral de la nalga. Localizar la parte superior externa del cuadrante superior externo. Es importante palpar la cresta ilíaca para que la zona está lo suficientemente alta. Los cálculos visuales sólo pueden dar como resultado una inyección que sea demasiado baja y lesión del paciente.</td>
@@ -149,6 +153,16 @@ Las inyecciones en cualquiera de los dos cuadrantes inferiores  pueden lesionar 
 </td>
                   <td>El paciente deberá ser colocado boca abajo con los pies en rotación interna y en flexión plantar cuando se localice el sitio por palpación. Esta posición asegura la relajación del músculo mientras se aplica la inyección. No se debe usar la posición de pie o sentado porque es imposible la relajación del músculo y hay peligro de que una brusca contracción pudiera llegar a romper la aguja.</td>
                 </tr>
+                <tr>
+                  <td colspan="2">
+                  <!-- VIDEO INICIO -->
+                    <div class="">
+                    <? $video = "ab"; 
+                    include "php/video.php";?>
+                    </div>
+                    <!-- VIDEO FIN -->
+                  </td>
+                </tr>
               </table>
 
             <p class="texto">
@@ -160,6 +174,15 @@ Las inyecciones en cualquiera de los dos cuadrantes inferiores  pueden lesionar 
 
             <article class="content-box" data-tipo="vof" data-sol="v">
               <h3 align="left" style="display:inline-block">1) Verdadero o falso </h3>
+
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
+
+
               <p class="texto">
                 El sitio recomendado es el cuadrante superior externo del área glútea, y puede localizarse trazando una línea desde la espina ilíaca postero-superior hasta el trocánter mayor del fémur.
               </p>       
@@ -170,6 +193,15 @@ Las inyecciones en cualquiera de los dos cuadrantes inferiores  pueden lesionar 
 
             <article class="content-box" data-tipo="vof" data-sol="f">
               <h3 align="left" style="display:inline-block">2) Verdadero o falso </h3>
+
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
+
+
               <p class="texto">
                 Se debe administrarse medicamentos por inyección intramuscular a personas que usan anticoagulantes.              
               </p>       
@@ -181,6 +213,14 @@ Las inyecciones en cualquiera de los dos cuadrantes inferiores  pueden lesionar 
 
             <article class="content-box" data-tipo="image" data-sol="319485627">
               <h3 align="left" style="display:inline-block">3) Ordene las imágenes: </h3>
+
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
+
               <p class="texto">
               </p>
               <ul id="imgtest">
@@ -201,6 +241,14 @@ Las inyecciones en cualquiera de los dos cuadrantes inferiores  pueden lesionar 
 
             <article class="content-box" data-tipo="vof" data-sol="v">
               <h3 align="left" style="display:inline-block">4) Verdadero o falso </h3>
+
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
+
               <p class="texto">
                 El paciente deberá ser colocado boca abajo con los pies en rotación interna y en flexión plantar cuando se localice el sitio por palpación.              </p>                     
               <a href="#" class="button" data-res="v">Verdadero</a>
@@ -210,6 +258,14 @@ Las inyecciones en cualquiera de los dos cuadrantes inferiores  pueden lesionar 
 
             <article class="content-box" data-tipo="vof" data-sol="v">
               <h3 align="left" style="display:inline-block">5) Seleccione la imagen correcta </h3>
+
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
+
               <p class="texto">
                 Cuál es el Angulo de punción que se utiliza en la administración de fármacos intramuscular
               </p>       
@@ -221,6 +277,15 @@ Las inyecciones en cualquiera de los dos cuadrantes inferiores  pueden lesionar 
             <!-- 3 -->
             <article class="content-box" data-tipo="vof" data-sol="f">
               <h3 align="left" style="display:inline-block">6) Verdadero o falso </h3>
+
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
+
+              
               <p class="texto">
                Se elige el sitio de punción en cualquier área de la nalga sin importar la distancia que esta tenga con respecto al nervio ciático.
              </p>
@@ -236,25 +301,31 @@ Las inyecciones en cualquiera de los dos cuadrantes inferiores  pueden lesionar 
 
 
             <article class="content-box aprovado">
-
               <h3 align="left" style="display:inline-block">Felicitaciones</h3>
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
               <p class="texto">
                 Has aprovado este nivel, ya puedes comenzar el siguiente.       
-              </p>      
-              
-              <a href="#" class="button">Finalizar</a>
-                         
+              </p>                    
+              <a href="#" class="button">Finalizar</a>                         
             </article>
 
-             <article class="content-box reprovado">
-
+            <article class="content-box reprovado">
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
               <h3 align="left" style="display:inline-block">Intenta nuevamente</h3>
               <p class="texto">
                 Has hecho un gran esfuerzo, pero necesitas un poco mas para aprovar este nivel.       
-              </p>      
-              
-              <a href="#" class="button">Intentar de nuevo</a>
-                         
+              </p>                    
+              <a href="#" class="button">Intentar de nuevo</a>                         
             </article>
 
 
@@ -334,7 +405,7 @@ Las inyecciones en cualquiera de los dos cuadrantes inferiores  pueden lesionar 
         }else{
           if(puntuacion!= -9999){
             $(".reprovado").slideDown('slow');          
-            $.ajax({
+            /*$.ajax({
               url : "php/ajax.php",
               data : {action:'nivelReprobado', nivel:'4', puntuacion:puntuacion},
               type : "POST",
@@ -342,7 +413,7 @@ Las inyecciones en cualquiera de los dos cuadrantes inferiores  pueden lesionar 
               success : function(){
 
               }
-            });
+            });*/
           }
         }
       }

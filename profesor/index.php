@@ -30,7 +30,7 @@
   <div class="main">
         <!-- Header -->
     <header>
-          <? require "php/nav.php"; ?>
+          <? $p=1; require "php/nav.php"; ?>
           <div class="clear"></div>
     </header>
         <!-- Slider -->

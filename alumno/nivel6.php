@@ -7,11 +7,13 @@
           WHERE n.usuario_id = '$id'";
   $result = mysql_query($query);
   $evaluaciones = mysql_fetch_object($result);
-if($nivel != 2){
-  header("Location: index.php?ref=nivel3");
+
+  if($nivel != 5){
+  header("Location: index.php?ref=nivel6");
   exit;
 }
   
+
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -50,6 +52,7 @@ if($nivel != 2){
   }
   #imgtest li{
     display: inline-block;
+    padding: 5px;
   }
   #imgtest li img{
     max-height: 200px;
@@ -87,62 +90,62 @@ if($nivel != 2){
         
         <!-- Content -->
     <section id="content"><div class="ic">Ceglys Afanador @ ceglysafanador.com.ve Junio, 2013!</div>
-          <div class="container_12">
+          <div class="container_12">            
+
             <article class="content-box" data-tipo="start">
-              <h3 align="center">Administración de farmacos via intramuscular en el área del brazo.</h3>
-              <p>Debido a la  pequeña masa muscular de la zona del brazo evita la administración de  cantidades superiores a 2 ml de medicación. Está tan cerca del nervio radial  como de la arteria humeral profunda, por lo que existe la posibilidad de  lesionar al paciente. Esta es una buena zona, sin embargo, para la dosis de  refuerzo del toxoide tetánico, puesto que es accesible a los pacientes  ambulatorios. Además la medicación administrada en el deltoides se absorbe más  rápidamente.</p>
+              <h3 align="center">Heridas Abierta</h3>
+              <p class="texto">
+                Una herida es una lesión que se produce en el cuerpo. Puede ser producida por múltiples razones, aunque generalmente es debido a golpes o desgarros en lapiel. Dependiendo de su gravedad, es necesaria asistencia médica.<br>
+Es toda pérdida de continuidad en la piel (lo que se denomina "solución de continuidad"), secundaria a un traumatismo. Como consecuencia de la agresión de este tejido existe riesgo de infección y posibilidad de lesiones en órganos o tejidos adyacentes: músculos, nervios, vasos sanguíneos, entre otros.<br>
+ <br>
+<strong>Al tratar una herida se busca</strong> <br>
+Favorecer el proceso de granulación y cicatrización. <br>
+Prevenir la infección.  <br>
+Promover el bienestar del paciente.  <br>
+Valorar el proceso de curación.  <br>
+</p>
               <table width="100%" border="0">
                 <tr>
-                  <td colspan="2" align="center"><h4>PASOS  PARA LA ADMINISTRACION DE FARMACOS EN EL BRAZO: </h4></td>
+                  <td width="50%">Identificar al paciente, Informarle sobre el procedimiento a realizar, Preservar la intimidad del paciente. </td>
+                  <td width="50%"><img src="../assets/images/h1.jpg" alt="" class="img right m300"></td>
                 </tr>
+
                 <tr>
-                  <td width="53%">Compruebe  5 correctos e informe el procedimiento al paciente.</td>
-                  <td width="47%"><img src="../assets/images/image001.jpg" alt="" class="img right m300"></td>
+                  <td width="50%">Lavarse las manos</td>
+                  <td width="50%"><img src="../assets/images/h2.jpg" alt="" class="img right m300"></td>
                 </tr>
+
                 <tr>
-                  <td align="left">  Lávese la manos</td>
-                  <td><img src="../assets/images/image008.jpg" width="291" height="251"></td>
+                  <td width="50%"> Preparar el campo estéril, en una bandeja del carro de curas o en una mesa auxiliar. 
+<br>Abrir el paquete de gasas y el equipo de curas, siguiendo una técnica aséptica y depositarlos en el campo estéril. 
+ </td>
+                  <td width="50%"><img src="../assets/images/h3.jpg" alt="" class="img right m300"></td>
                 </tr>
+
                 <tr>
-                  <td align="left"><p>*Haga un cuadro imaginario en la parte superior de su brazo.<br><br>
-                        *Encuentre la parte superior de su brazo que tiene una    protuberancia, donde se une con el hombro. Mida 2 dedos de ancho hacia abajo    de esta área del hueso. Aquí se encuentra la parte superior del cuadro    imaginario.<br><br>
-                        *Encuentre la parte de abajo del cuadro dibujando una línea horizontal imaginaria en su brazo, desde el pliegue frontal de su axila hasta el pliegue posterior de su axila.<br><br>
-                        *Encuentre los marcos de los  lados dividiendo el área en tres partes verticales. La parte del medio es donde  se inyectará la medicina.</td>
-                  <td><img src="../assets/images/image003.png" width="168" height="310"></td>
+                  <td width="50%"> Ponerse los guantes estériles o no estériles, según el tipo de herida. 
+<br>Retirar suavemente el apósito sucio, utilizando guantes no estériles, humedeciéndolo con suero fisiológico si fuera necesario.
+ </td>
+                  <td width="50%"><img src="../assets/images/h4.jpg" alt="" class="img right m300"></td>
                 </tr>
+
                 <tr>
-                  <td align="left">Limpie  el sitio, Presionándolo con el aplicador de alcohol; déjelo secar.</td>
-                  <td><img src="../assets/images/image004.jpg" width="162" height="158"></td>
+                  <td width="50%">  Limpiar la herida, partiendo del centro al exterior, con jabón o líquido antiséptico.  </td>
+                  <td width="50%"><img src="../assets/images/h5.jpg" alt="" class="img right m300"></td>
                 </tr>
+
                 <tr>
-                  <td align="left"><p>Con sus dedos pulgar e índice, sostenga firmemente el músculo. <br><br>
-                        Coja la jeringa como se coge un lápiz e inserte rápidamente la    aguja a través de la piel en un ángulo     de 90 grados.</p>
-                  </td>
-                  <td><img src="../assets/images/image009.png" width="259" height="237"></td>
+                  <td width="50%"> Con una pinza de disección y una de Köcher, doblar una gasa en cuatro, de forma que los extremos queden hacia dentro.  </td>
+                  <td width="50%"><img src="../assets/images/h6.jpg" alt="" class="img right m300"></td>
                 </tr>
+
                 <tr>
-                  <td align="left"><p>Succione suavemente con el émbolo para ver si sale sangre. Si    sale sangre, saque la aguja, deséchela junto con la jeringa, y empiece    nuevamente.<br><br>
-                   
-Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamente en el tejido.</td>
-                  <td><img src="../assets/images/image006.png" width="231" height="236"></td>
+                  <td width="50%"> Colocar apósito o vendaje compresivo. </td>
+                  <td width="50%"><img src="../assets/images/h7.jpg" alt="" class="img right m300"></td>
                 </tr>
-                <tr>
-                  <td align="left">Después  de retirar la aguja, aplique un poco de presión sobre el sitio con una gasa  seca o un pañuelo de papel (kleenex), hasta que ya no sangre más.</td>
-                  <td><img src="../assets/images/image007.png" width="231" height="227"></td>
-                </tr>
-                <tr>
-                  <td align="left">Lávese  bien las manos otra vez. Y deseche la aguja debidamente.</td>
-                  <td><img src="../assets/images/image008.jpg" width="232" height="200"></td>
-                </tr>
-                <tr>
-                  <td height="61" align="center" valign="bottom"><strong>Contraindicaciones</strong></td>
-                  <td align="center" valign="bottom"><strong>Indicaciones</strong></td>
-                </tr>
-                <tr>
-                  <td>Las  personas con trastornos de la coagulación o en tratamiento con anticoagulantes  pueden desarrollar hematomas en el lugar de la inyección, por lo que se informará  al paciente sobre este riesgo. Estos supuestos no contradicen la vacunación y,  en el caso, de precisar una vacuna cuya única vía es la intramuscular, se  utilizará una aguja fina (calibre igual o menor a 23 G) y se aplicará presión  local sin frotar durante al menos dos minutos.</td>
-                  <td>Admite hasta 2 ml de volumen.<br>
-                  E paciente puede estar prácticamente en todas  las posiciones: sedestación (sentado), decúbito supino, decúbito lateral o  bipedestación.</td>
-                </tr>
+
+
+                
 
                 <tr>
                   <td colspan="2">
@@ -154,12 +157,12 @@ Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamen
                     <!-- VIDEO FIN -->
                   </td>
                 </tr>
-              </table>
 
+              </table>
             <p class="texto">
               <a href="#" class="button"> Empezar Test--> </a>
             </p>
-            </article>
+          </article>
 
             <!-- 1 -->
 
@@ -175,15 +178,17 @@ Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamen
 
 
               <p class="texto">
-               Está tan cerca del nervio radial como de la arteria humeral profunda, por lo que no  existe ninguna posibilidad de lesionar al paciente.
+El objeto principal de la cura de heridas abiertas es promover la infección en el área.
               </p>       
               
               <a href="#" class="button" data-res="v">Verdadero</a>
               <a href="#" class="button" data-res="f">Falso</a>                         
             </article>
 
+            <!-- 2 -->
+
             <article class="content-box" data-tipo="vof" data-sol="v">
-              <h3 align="left" style="display:inline-block">2) Verdadero o falso </h3>
+              <h3 align="left" style="display:inline-block">2) Seleccione la imagen correcta </h3>
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
@@ -192,17 +197,17 @@ Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamen
               </div>
               <!-- ENFERMERA FIN -->
 
-
               <p class="texto">
-                Las personas con trastornos de la coagulación o en tratamiento con anticoagulantes pueden desarrollar hematomas en el lugar de la inyección.              
               </p>       
               
-              <a href="#" class="button" data-res="v">Verdadero</a>
-              <a href="#" class="button" data-res="f">Falso</a>                         
+              <a href="#" class="button" data-res="v"><img src="../assets/imgtest/5/v.jpg"/></a>
+              <a href="#" class="button" data-res="f"><img src="../assets/imgtest/5/f.jpg"/></a>                         
             </article>
 
 
-            <article class="content-box" data-tipo="vof" data-sol="f">
+            <!-- 3 -->
+
+            <article class="content-box" data-tipo="vof" data-sol="v">
               <h3 align="left" style="display:inline-block">3) Verdadero o falso </h3>
 
               <!-- ENFERMERA INICIO -->
@@ -214,42 +219,17 @@ Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamen
 
 
               <p class="texto">
-                Si la medicina en la jeringa tiene sangre, se debe inyecte toda la medicina lentamente en el tejido.              
-              </p>                     
+  Como consecuencia de la agresión de la piel existe riesgo de infección y posibilidad de lesiones en órganos o tejidos adyacentes: músculos, nervios, vasos sanguíneos, entre otros.              </p>       
+              
               <a href="#" class="button" data-res="v">Verdadero</a>
               <a href="#" class="button" data-res="f">Falso</a>                         
             </article>
 
-            <!-- 3 -->
-
-            <article class="content-box" data-tipo="select">
-              <h3>4) El paciente puede puede estar en 3 de estas posiciones para poder aplicarle la inyección en el brazo:</h3>
-
-              <!-- ENFERMERA INICIO -->
-              <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
-                 include "php/enfermera.php";?>
-              </div>
-              <!-- ENFERMERA FIN -->
+          <!-- 4 -->
 
 
-              <p class="texto">   
-                  <ul> 
-                    <li><input type="checkbox" value="1" class="ch1" />Sentado</li>   
-                    <li><input type="checkbox" value="0" class="ch1" />De Cuclillas</li> 
-                    <li><input type="checkbox" value="1" class="ch1" />De Cubito</li> 
-                    <li><input type="checkbox" value="0" class="ch1" />Parado de manos</li> 
-                    <li><input type="checkbox" value="1" class="ch1" />Supino</li> 
-                  </ul>   
-              </p>       
-              
-              <a href="#" class="button">Corregir</a>
-                         
-            </article>
-
-
-            <article class="content-box" data-tipo="image" data-sol="58421367">
-              <h3 align="left" style="display:inline-block">5) Ordene las imágenes: </h3>
+            <article class="content-box" data-tipo="image" data-sol="2413756">
+              <h3 align="left" style="display:inline-block">4) Ordene las imágenes: </h3>
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
@@ -262,21 +242,65 @@ Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamen
               <p class="texto">
               </p>
               <ul id="imgtest">
-                <li><img src="../assets/imgtest/2/5.png" alt=""><br><input type="text" class="imageres"></li>
-                <li><img src="../assets/imgtest/2/8.jpg" alt=""><br><input type="text" class="imageres"></li>
-                <li><img src="../assets/imgtest/2/4.png" alt=""><br><input type="text" class="imageres"></li>
-                <li><img src="../assets/imgtest/2/2.jpg" alt=""><br><input type="text" class="imageres"></li>
-                <li><img src="../assets/imgtest/2/1.jpg" alt=""><br><input type="text" class="imageres"></li>
-                <li><img src="../assets/imgtest/2/3.jpg" alt=""><br><input type="text" class="imageres"></li>
-                <li><img src="../assets/imgtest/2/6.png" alt=""><br><input type="text" class="imageres"></li>
-                <li><img src="../assets/imgtest/2/7.png" alt=""><br><input type="text" class="imageres"></li>
+                <li><img src="../assets/imgtest/5/2.png" alt=""><br><input type="text" class="imageres"></li>
+                <li><img src="../assets/imgtest/5/4.png" alt=""><br><input type="text" class="imageres"></li>
+                <li><img src="../assets/imgtest/5/1.jpg" alt=""><br><input type="text" class="imageres"></li>
+                <li><img src="../assets/imgtest/5/3.jpg" alt=""><br><input type="text" class="imageres"></li>
+                <li><img src="../assets/imgtest/5/7.jpg" alt=""><br><input type="text" class="imageres"></li>
+                <li><img src="../assets/imgtest/5/5.jpg" alt=""><br><input type="text" class="imageres"></li>
+                <li><img src="../assets/imgtest/5/6.jpg" alt=""><br><input type="text" class="imageres"></li> 
 
               </ul>
               <a href="#" class="button">Corregir</a>
             </article>
 
-            
+            <!-- 5 -->
+            <article class="content-box" data-tipo="vof" data-sol="f">
+              <h3 align="left" style="display:inline-block">5) Verdadero o falso</h3>
 
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
+
+
+              <p class="texto">
+                Para cubrir una herida abierta se debe doblar una gasa en cuatro con las manos sin guantes, de forma que los extremos queden hacia dentro.              </p>                     
+              <a href="#" class="button" data-res="v">Verdadero</a>
+              <a href="#" class="button" data-res="f">Falso</a>                         
+            </article>
+
+
+
+             <article class="content-box" data-tipo="select">
+              <h3>6) Para curar una herida abierta se requiere de materiales como:</h3>
+
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "bienvenida"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
+
+
+              <p class="texto">   
+                  <ul> 
+                    <li><input type="checkbox" value="1" class="ch1" />Apósitos</li>   
+                    <li><input type="checkbox" value="1" class="ch1" />Antisépticos</li> 
+                    <li><input type="checkbox" value="0" class="ch1" />Catéter</li> 
+                    <li><input type="checkbox" value="1" class="ch1" />Guantes</li> 
+                    <li><input type="checkbox" value="0" class="ch1" />Antimicóticos</li> 
+                  </ul>   
+              </p>       
+              
+              <a href="#" class="button">Corregir</a>
+                         
+            </article>
+
+
+            
 
             <article class="content-box aprovado">
               <h3 align="left" style="display:inline-block">Felicitaciones</h3>
@@ -324,14 +348,15 @@ Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamen
     cajas = $(".content-box");
     i = 0;
     puntuacion=0;
-    preguntas=5;
+    preguntas=6;
     
     cajas.eq(i).slideDown('slow');
     
     $(".button").click(function(){
+
       i++;
       var tipo = $(this).parent('.content-box').data('tipo');
-      
+     
       switch(tipo){
         case 'vof':
           var sol = $(this).parent('.content-box').data('sol'),
@@ -366,12 +391,12 @@ Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamen
         next();  
       }else{
         cajas.eq(preguntas).slideUp('slow');
-        if(puntuacion>=4){
+        if(puntuacion>=5){
           $(".aprovado").slideDown('slow');    
 
           $.ajax({
             url : "php/ajax.php",
-            data : {action:'nivelAprobado', nivel:'3', puntuacion:puntuacion},
+            data : {action:'nivelAprobado', nivel:'6', puntuacion:puntuacion, "rand": Math.floor(Math.random() * 6) + 1 },
             type : "POST",
             async : false,
             success : function(){
@@ -382,9 +407,9 @@ Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamen
         }else{
           if(puntuacion!= -9999){
             $(".reprovado").slideDown('slow');          
-           /* $.ajax({
+            /*$.ajax({
               url : "php/ajax.php",
-              data : {action:'nivelReprobado', nivel:'3', puntuacion:puntuacion},
+              data : {action:'nivelReprobado', nivel:'6', puntuacion:puntuacion},
               type : "POST",
               async : false,
               success : function(){
@@ -397,14 +422,13 @@ Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamen
 
       $(".reprovado .button").click(function(e){
         e.preventDefault();
-        window.location.href = "nivel3.php?denuevo";
+        window.location.href = "nivel6.php?denuevo";
       });
 
       $(".aprovado .button").click( function(e){
         e.preventDefault();        
-        window.location.href = "e2.php";
+        window.location.href = "perfil.php?ref=finish";
       });
-      
     });
 
 
@@ -414,6 +438,21 @@ Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamen
       cajas.eq(i).slideDown('slow');
     }
   });
+
+
+var chmax = 3, currentch = 0;
+$('.ch1').click(function(){
+  if($(this).is(":checked")){
+    if(currentch<chmax){
+      currentch++;
+    }else{
+      $(this).attr('checked', false);
+      alert("Solo puede elegir 3 opciones.");
+    }
+  }else{
+    currentch--;
+  }
+});
   
   
 </script>
