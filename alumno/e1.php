@@ -64,7 +64,7 @@
                 <td align="center" colspan="2">
                   <!-- ENFERMERA INICIO -->
                   <? 
-                      $enfermera = "bienvenida"; 
+                      $enfermera = "enfermeria"; 
                       include "php/enfermera.php";  
                   ?>
                   <!-- ENFERMERA FIN -->

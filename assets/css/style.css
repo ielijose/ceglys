@@ -1183,3 +1183,8 @@ table.fc-border-separate {
 .content-box{
 	min-height: 380px;
 }
+
+
+table tr td{
+	vertical-align: middle;
+}

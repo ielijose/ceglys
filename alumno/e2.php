@@ -61,19 +61,19 @@
                 <td align="center" colspan="2">
                   <!-- ENFERMERA INICIO -->
                   <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="300" height="300">
-                      <param name="movie" value="../assets/images/bienvenida.swf">
+                      <param name="movie" value="../assets/enfermeras/selecciona.swf">
                       <param name="quality" value="high">
                       <param name="wmode" value="opaque">
-                      <param name="swfversion" value="6.0.65.0">
+                      <param name="swfversion" value="15.0.0.0">
                       <!-- Esta etiqueta param indica a los usuarios de Flash Player 6.0 r65 o posterior que descarguen la versión más reciente de Flash Player. Elimínela si no desea que los usuarios vean el mensaje. -->
                       <param name="expressinstall" value="../assets/scripts/expressInstall.swf">
                       <!-- La siguiente etiqueta object es para navegadores distintos de IE. Ocúltela a IE mediante IECC. -->
                       <!--[if !IE]>-->
-                      <object type="application/x-shockwave-flash" data="../assets/images/bienvenida.swf" width="300" height="300">
+                      <object type="application/x-shockwave-flash" data="../assets/enfermeras/selecciona.swf" width="300" height="300">
                         <!--<![endif]-->
                         <param name="quality" value="high">
                         <param name="wmode" value="opaque">
-                        <param name="swfversion" value="6.0.65.0">
+                        <param name="swfversion" value="15.0.0.0">
                         <param name="expressinstall" value="../assets/scripts/expressInstall.swf">
                         <!-- El navegador muestra el siguiente contenido alternativo para usuarios con Flash Player 6.0 o versiones anteriores. -->
                         <div>

@@ -66,27 +66,27 @@ if($nivel != 0){
           <div class="container_12">
             <article class="content-box" data-tipo="start">
               <h3 align="center">Enfermería.</h3>
-              <!-- ENFERMERA INICIO -->
-              <? 
-                  $enfermera = "bienvenida"; 
-                  include "php/enfermera.php";  
-              ?>
-              <!-- ENFERMERA FIN -->
-                                  <img src="../assets/images/fea_language.jpg" class="img right m300" style="height:270px">
-
+             
+               <img src="../assets/images/fea_language.jpg" class="img right m300" style="height:270px">
+                                <!-- ENFERMERA INICIO -->
+                                <? 
+                                 $enfermera = "debes leer"; 
+                                include "php/enfermera.php";  
+                                ?>
+                                <!-- ENFERMERA FIN -->
               <p class="texto">
-                La enfermería es una profesión que se basa en conocimientos teóricos propios y posee una base científica de donde proviene el servicio que ofrece a la sociedad. 
+                	     La enfermería es una profesión que se basa en conocimientos teóricos propios y posee una base científica de donde proviene el servicio que ofrece a la sociedad. 
 La enfermería es la profesión que se encarga del cuidado de la salud y bienestar de la sociedad. El profesional en enfermería deberá poseer habilidades y vocación para llevar a cabo diagnósticos y tratamientos de enfermedades reales o potenciales. Así como también conocimiento de las ciencias biológicas, físicas, sociales y médicas para poder llevar a cabo el ejercicio responsable de dicha profesión. 
-
+</p>  
 Se puede considerar la enfermería como:
-
+</p>  
 Arte porque requiere y cuenta con un conjunto de habilidades, que depende del sello personal de quien las realice. 
-
+</p>  
 Como ciencia, porque requiere de los conocimientos de la propia disciplina. 
-
+</p>  
 Y como profesión, la enfermería requiere del conocimiento y apoyo de las ciencias físicas, biológicas, sociales y médicas. La enfermería como profesión requiere de un trabajo especializado, mediante la aplicación de conocimientos específicos, debe ser práctica, académica, debe incluir procedimientos uniformes basados en principios generales, debe tener bases éticas, organización interna y autonomía, de igual forma debe ser social bajo los principios establecidos por una autoridad reconocida. 
 
-              </p>       
+                  </p>   
               
               <a href="#" class="button"> Empezar Test--> </a>
                          
@@ -100,12 +100,12 @@ Y como profesión, la enfermería requiere del conocimiento y apoyo de las cienc
               <h3 align="left" style="display:inline-block">1) Verdadero o falso </h3>
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "verdadero o falso"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
               <p class="texto">
-                El profesional en enfermería debe tener conocimiento de las ciencias biológicas, físicas, antropológicas y psicosociales médicas para poder llevar a cabo el ejercicio responsable de dicha profesión.
+                El profesional en enfermería debe tener conocimiento de las ciencias biológicas, físicas, antropológicas, psicosociales y médicas para poder llevar a cabo el ejercicio responsable de dicha profesión.
 
 
               </p>       
@@ -120,16 +120,12 @@ Y como profesión, la enfermería requiere del conocimiento y apoyo de las cienc
 
             <article class="content-box" data-tipo="select">
               <h3>2) Se considera la enfermería como:</h3>
-
-
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "3 palabras correctas"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
-
-
               <p class="texto">   
                   <ul> 
                     <li><input type="checkbox" value="1" class="ch1" />Ciencia</li>   
@@ -151,7 +147,7 @@ Y como profesión, la enfermería requiere del conocimiento y apoyo de las cienc
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "lee cuidadosamente"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -173,7 +169,7 @@ Y como profesión, la enfermería requiere del conocimiento y apoyo de las cienc
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "verdadero o falso"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -193,14 +189,14 @@ Y como profesión, la enfermería requiere del conocimiento y apoyo de las cienc
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "lee cuidadosamente"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
 
 
               <p class="texto">
-                Deberá poseer habilidades y vocación para llevar a cabo tratamientos de enfermedades reales o potenciales.
+                El profesional en enfermeria deberá poseer habilidades y vocación para llevar a cabo tratamientos de enfermedades reales o potenciales.
               </p>       
               
               <a href="#" class="button" data-res="v">Verdadero</a>
@@ -213,10 +209,11 @@ Y como profesión, la enfermería requiere del conocimiento y apoyo de las cienc
             <article class="content-box" data-tipo="vof" data-sol="v">
 
               <h3 align="left" style="display:inline-block">6) Verdadero o falso </h3>
+              
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "verdadero o falso"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -235,7 +232,7 @@ Y como profesión, la enfermería requiere del conocimiento y apoyo de las cienc
               <h3 align="left" style="display:inline-block">Felicitaciones</h3>
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "muy bien"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -247,13 +244,13 @@ Y como profesión, la enfermería requiere del conocimiento y apoyo de las cienc
              <article class="content-box reprovado">
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "nuevamente evaluacion"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
               <h3 align="left" style="display:inline-block">Intenta nuevamente</h3>
               <p class="texto">
-                Has hecho un gran esfuerzo, pero necesitas un poco mas para aprovar este nivel.       
+                Has hecho un gran esfuerzo, pero necesitas un poco mas para aprobar este nivel.       
               </p>                    
               <a href="#" class="button">Intentar de nuevo</a>                         
             </article>

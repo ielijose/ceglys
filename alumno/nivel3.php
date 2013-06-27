@@ -89,66 +89,100 @@ if($nivel != 2){
     <section id="content"><div class="ic">Ceglys Afanador @ ceglysafanador.com.ve Junio, 2013!</div>
           <div class="container_12">
             <article class="content-box" data-tipo="start">
+            
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "analisa la inf"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
               <h3 align="center">Administración de farmacos via intramuscular en el área del brazo.</h3>
+              </p>
+              </p>
+              </p>
               <p>Debido a la  pequeña masa muscular de la zona del brazo evita la administración de  cantidades superiores a 2 ml de medicación. Está tan cerca del nervio radial  como de la arteria humeral profunda, por lo que existe la posibilidad de  lesionar al paciente. Esta es una buena zona, sin embargo, para la dosis de  refuerzo del toxoide tetánico, puesto que es accesible a los pacientes  ambulatorios. Además la medicación administrada en el deltoides se absorbe más  rápidamente.</p>
               <table width="100%" border="0">
                 <tr>
                   <td colspan="2" align="center"><h4>PASOS  PARA LA ADMINISTRACION DE FARMACOS EN EL BRAZO: </h4></td>
                 </tr>
                 <tr>
-                  <td width="53%">Compruebe  5 correctos e informe el procedimiento al paciente.</td>
-                  <td width="47%"><img src="../assets/images/image001.jpg" alt="" class="img right m300"></td>
+                  <td width="50%" align="justify">Compruebe  5 correctos e informe el procedimiento al paciente.</td>
+                  <td width="50%" align="center">
+                    <img src="../assets/images/image001.jpg" alt="" class="img right m300">
+                    <div id="player1"></div> 
+                  </td>
                 </tr>
                 <tr>
-                  <td align="left">  Lávese la manos</td>
-                  <td><img src="../assets/images/image008.jpg" width="291" height="251"></td>
+                  <td width="50%" align="justify">  Lávese la manos</td>
+                  <td width="50%" align="center">
+                    <img src="../assets/images/image008.jpg" alt="" class="img right m300">
+                    <div id="player2"></div> 
+                  </td>
                 </tr>
                 <tr>
-                  <td align="left"><p>*Haga un cuadro imaginario en la parte superior de su brazo.<br><br>
+                  <td width="50%" align="justify"><p>*Haga un cuadro imaginario en la parte superior de su brazo.<br><br>
                         *Encuentre la parte superior de su brazo que tiene una    protuberancia, donde se une con el hombro. Mida 2 dedos de ancho hacia abajo    de esta área del hueso. Aquí se encuentra la parte superior del cuadro    imaginario.<br><br>
                         *Encuentre la parte de abajo del cuadro dibujando una línea horizontal imaginaria en su brazo, desde el pliegue frontal de su axila hasta el pliegue posterior de su axila.<br><br>
                         *Encuentre los marcos de los  lados dividiendo el área en tres partes verticales. La parte del medio es donde  se inyectará la medicina.</td>
-                  <td><img src="../assets/images/image003.png" width="168" height="310"></td>
+                  <td width="50%" align="center">
+                    <img src="../assets/images/image003.png" alt="" class="img right m300">
+                    <div id="player3"></div> 
+                  </td>
                 </tr>
                 <tr>
-                  <td align="left">Limpie  el sitio, Presionándolo con el aplicador de alcohol; déjelo secar.</td>
-                  <td><img src="../assets/images/image004.jpg" width="162" height="158"></td>
+                  <td width="50%" align="justify">Limpie  el sitio, Presionándolo con el aplicador de alcohol; déjelo secar.</td>
+                  <td width="50%" align="center">
+                    <img src="../assets/images/image004.jpg" alt="" class="img right m300">
+                    <div id="player4"></div> 
+                  </td>
                 </tr>
                 <tr>
-                  <td align="left"><p>Con sus dedos pulgar e índice, sostenga firmemente el músculo. <br><br>
+                  <td width="50%" align="justify"><p>Con sus dedos pulgar e índice, sostenga firmemente el músculo. <br><br>
                         Coja la jeringa como se coge un lápiz e inserte rápidamente la    aguja a través de la piel en un ángulo     de 90 grados.</p>
                   </td>
-                  <td><img src="../assets/images/image009.png" width="259" height="237"></td>
+                  <td width="50%" align="center">
+                    <img src="../assets/images/image009.png" alt="" class="img right m300">
+                    <div id="player5"></div> 
+                  </td>
                 </tr>
                 <tr>
-                  <td align="left"><p>Succione suavemente con el émbolo para ver si sale sangre. Si    sale sangre, saque la aguja, deséchela junto con la jeringa, y empiece    nuevamente.<br><br>
+                  <td width="50%" align="justify"><p>Succione suavemente con el émbolo para ver si sale sangre. Si    sale sangre, saque la aguja, deséchela junto con la jeringa, y empiece    nuevamente.<br><br>
                    
 Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamente en el tejido.</td>
-                  <td><img src="../assets/images/image006.png" width="231" height="236"></td>
+                  <td width="50%" align="center">
+                    <img src="../assets/images/image006.png" alt="" class="img right m300">
+                    <div id="player6"></div> 
+                  </td>
                 </tr>
                 <tr>
-                  <td align="left">Después  de retirar la aguja, aplique un poco de presión sobre el sitio con una gasa  seca o un pañuelo de papel (kleenex), hasta que ya no sangre más.</td>
-                  <td><img src="../assets/images/image007.png" width="231" height="227"></td>
+                  <td width="50%" align="justify">Después  de retirar la aguja, aplique un poco de presión sobre el sitio con una gasa  seca o un pañuelo de papel (kleenex), hasta que ya no sangre más.</td>
+                  <td width="50%" align="center">
+                    <img src="../assets/images/image007.png" alt="" class="img right m300">
+                    <div id="player7"></div> 
+                  </td>
                 </tr>
                 <tr>
-                  <td align="left">Lávese  bien las manos otra vez. Y deseche la aguja debidamente.</td>
-                  <td><img src="../assets/images/image008.jpg" width="232" height="200"></td>
+                  <td width="50%" align="justify">Lávese  bien las manos otra vez. Y deseche la aguja debidamente.</td>
+                  <td width="50%" align="center">
+                    <img src="../assets/images/image008.jpg" alt="" class="img right m300">
+                    <div id="player8"></div> 
+                  </td>
                 </tr>
                 <tr>
                   <td height="61" align="center" valign="bottom"><strong>Contraindicaciones</strong></td>
                   <td align="center" valign="bottom"><strong>Indicaciones</strong></td>
                 </tr>
                 <tr>
-                  <td>Las  personas con trastornos de la coagulación o en tratamiento con anticoagulantes  pueden desarrollar hematomas en el lugar de la inyección, por lo que se informará  al paciente sobre este riesgo. Estos supuestos no contradicen la vacunación y,  en el caso, de precisar una vacuna cuya única vía es la intramuscular, se  utilizará una aguja fina (calibre igual o menor a 23 G) y se aplicará presión  local sin frotar durante al menos dos minutos.</td>
-                  <td>Admite hasta 2 ml de volumen.<br>
-                  E paciente puede estar prácticamente en todas  las posiciones: sedestación (sentado), decúbito supino, decúbito lateral o  bipedestación.</td>
+                  <td width="50%" align="justify">Las  personas con trastornos de la coagulación o en tratamiento con anticoagulantes  pueden desarrollar hematomas en el lugar de la inyección, por lo que se informará  al paciente sobre este riesgo. Estos supuestos no contradicen la vacunación y,  en el caso, de precisar una vacuna cuya única vía es la intramuscular, se  utilizará una aguja fina (calibre igual o menor a 23 G) y se aplicará presión  local sin frotar durante al menos dos minutos.</td>
+                  <td width="50%" align="justify">Admite hasta 2 ml de volumen.<br>
+                  El paciente puede estar prácticamente en todas  las posiciones: sedestación (sentado), decúbito supino, decúbito lateral o  bipedestación.</td>
                 </tr>
 
                 <tr>
                   <td colspan="2">
                   <!-- VIDEO INICIO -->
                     <div class="">
-                    <? $video = "ab"; 
+                    <? $video = "3"; 
                     include "php/video.php";?>
                     </div>
                     <!-- VIDEO FIN -->
@@ -168,14 +202,14 @@ Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamen
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "verdadero o falso"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
 
 
               <p class="texto">
-               Está tan cerca del nervio radial como de la arteria humeral profunda, por lo que no  existe ninguna posibilidad de lesionar al paciente.
+               Al realizar la administración de farmacos en el glúteo, se esta tan cerca del nervio radial como de la arteria humeral profunda, por lo que no  existe ninguna posibilidad de lesionar al paciente.
               </p>       
               
               <a href="#" class="button" data-res="v">Verdadero</a>
@@ -187,7 +221,7 @@ Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamen
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "lee cuidadosamente"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -207,7 +241,7 @@ Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamen
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "debes leer"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -227,7 +261,7 @@ Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamen
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "3 palabras correctas"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -253,7 +287,7 @@ Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamen
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "coloca el numero"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -261,6 +295,10 @@ Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamen
 
               <p class="texto">
               </p>
+               </p>
+               </p>
+                </p>
+               
               <ul id="imgtest">
                 <li><img src="../assets/imgtest/2/5.png" alt=""><br><input type="text" class="imageres"></li>
                 <li><img src="../assets/imgtest/2/8.jpg" alt=""><br><input type="text" class="imageres"></li>
@@ -282,12 +320,12 @@ Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamen
               <h3 align="left" style="display:inline-block">Felicitaciones</h3>
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "retencion de informacion"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
               <p class="texto">
-                Has aprovado este nivel, ya puedes comenzar el siguiente.       
+                Has aprobado este nivel, ya puedes comenzar el siguiente.       
               </p>                    
               <a href="#" class="button">Finalizar</a>                         
             </article>
@@ -295,13 +333,13 @@ Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamen
             <article class="content-box reprovado">
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "nuevamente evaluacion"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
               <h3 align="left" style="display:inline-block">Intenta nuevamente</h3>
               <p class="texto">
-                Has hecho un gran esfuerzo, pero necesitas un poco mas para aprovar este nivel.       
+                Has hecho un gran esfuerzo, pero necesitas un poco mas para aprobar este nivel.       
               </p>                    
               <a href="#" class="button">Intentar de nuevo</a>                         
             </article>
@@ -417,3 +455,20 @@ Si la medicina en la  jeringa no tiene sangre, inyecte toda la medicina lentamen
   
   
 </script>
+
+
+<script type="text/javascript" src="../assets/mediaplayer/swfobject.js"></script>
+<script type="text/javascript">
+<? for($i=1;$i<25; $i++){ ?>
+
+  var player<? echo $i ?> = new SWFObject('../assets/mediaplayer/mediaplayer.swf','mpl','320','20','7'); 
+  player<? echo $i ?>.addParam('allowfullscreen','true'); 
+  player<? echo $i ?>.addVariable('file','../assets/audios/<? echo $i ?>.mp3'); 
+  player<? echo $i ?>.addVariable('height','20'); 
+  player<? echo $i ?>.addVariable('width','320'); 
+  if($("#player<? echo $i ?>").length){
+    player<? echo $i ?>.write('player<? echo $i ?>');
+  }  
+<? } ?>
+</script>
+

@@ -69,13 +69,14 @@
 
   table{
     border-radius: 4px;
-    text-align: center;
+    text-align: justify;
   }
 
   table tr td{
         border: 1px solid #ccc;
 
     padding:5px;
+
   }
   </style>
 </head>
@@ -93,6 +94,12 @@
           <div class="container_12">            
 
             <article class="content-box" data-tipo="start">
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "analisa la inf"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
               <h3 align="center">Heridas Abierta</h3>
               <p class="texto">
                 Una herida es una lesión que se produce en el cuerpo. Puede ser producida por múltiples razones, aunque generalmente es debido a golpes o desgarros en lapiel. Dependiendo de su gravedad, es necesaria asistencia médica.<br>
@@ -107,51 +114,84 @@ Valorar el proceso de curación.  <br>
               <table width="100%" border="0">
                 <tr>
                   <td width="50%">Identificar al paciente, Informarle sobre el procedimiento a realizar, Preservar la intimidad del paciente. </td>
-                  <td width="50%"><img src="../assets/images/h1.jpg" alt="" class="img right m300"></td>
+                  <td width="50%" align="center">
+                    <img src="../assets/images/h1.jpg" alt="" class="img right m300">
+                    <div id="player18"></div> 
+                  </td>
                 </tr>
 
                 <tr>
                   <td width="50%">Lavarse las manos</td>
-                  <td width="50%"><img src="../assets/images/h2.jpg" alt="" class="img right m300"></td>
+                  <td width="50%" align="center">
+                    <img src="../assets/images/h2.jpg" alt="" class="img right m300">
+                    <div id="player2"></div> 
+                  </td>
                 </tr>
 
                 <tr>
                   <td width="50%"> Preparar el campo estéril, en una bandeja del carro de curas o en una mesa auxiliar. 
 <br>Abrir el paquete de gasas y el equipo de curas, siguiendo una técnica aséptica y depositarlos en el campo estéril. 
  </td>
-                  <td width="50%"><img src="../assets/images/h3.jpg" alt="" class="img right m300"></td>
+
+                  <td width="50%" align="center">
+                    <img src="../assets/images/h3.jpg" alt="" class="img right m300">
+                    <div id="player19"></div> 
+                  </td>
                 </tr>
 
                 <tr>
                   <td width="50%"> Ponerse los guantes estériles o no estériles, según el tipo de herida. 
 <br>Retirar suavemente el apósito sucio, utilizando guantes no estériles, humedeciéndolo con suero fisiológico si fuera necesario.
  </td>
-                  <td width="50%"><img src="../assets/images/h4.jpg" alt="" class="img right m300"></td>
+                  <td width="50%" align="center">
+                    <img src="../assets/images/h4.jpg" alt="" class="img right m300">
+                    <div id="player20"></div> 
+                  </td>
                 </tr>
 
                 <tr>
                   <td width="50%">  Limpiar la herida, partiendo del centro al exterior, con jabón o líquido antiséptico.  </td>
-                  <td width="50%"><img src="../assets/images/h5.jpg" alt="" class="img right m300"></td>
+
+                  <td width="50%" align="center">
+                    <img src="../assets/images/h5.jpg" alt="" class="img right m300">
+                    <div id="player21"></div> 
+                  </td>
                 </tr>
 
                 <tr>
                   <td width="50%"> Con una pinza de disección y una de Köcher, doblar una gasa en cuatro, de forma que los extremos queden hacia dentro.  </td>
-                  <td width="50%"><img src="../assets/images/h6.jpg" alt="" class="img right m300"></td>
+
+                  <td width="50%" align="center">
+                    <img src="../assets/images/h6.jpg" alt="" class="img right m300">
+                    <div id="player22"></div> 
+                  </td>
                 </tr>
 
                 <tr>
                   <td width="50%"> Colocar apósito o vendaje compresivo. </td>
-                  <td width="50%"><img src="../assets/images/h7.jpg" alt="" class="img right m300"></td>
+
+                  <td width="50%" align="center">
+                    <img src="../assets/images/h7.jpg" alt="" class="img right m300">
+                    <div id="player23"></div> 
+                  </td>
                 </tr>
 
+                <tr>
+                  <td width="50%"> Deseche el material utilizado en el bote de basura y lávese nuevamente las manos como se le indico.
+                </td>
 
+                  <td width="50%" align="center">
+                    <img src="../assets/images/h8.jpg" alt="" class="img right m300">
+                    <div id="player8"></div> 
+                  </td>
+                </tr>
                 
 
                 <tr>
                   <td colspan="2">
                   <!-- VIDEO INICIO -->
                     <div class="">
-                    <? $video = "ab"; 
+                    <? $video = "6"; 
                     include "php/video.php";?>
                     </div>
                     <!-- VIDEO FIN -->
@@ -171,7 +211,7 @@ Valorar el proceso de curación.  <br>
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "verdadero o falso"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -192,7 +232,7 @@ El objeto principal de la cura de heridas abiertas es promover la infección en 
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "imagen correcta"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -212,7 +252,7 @@ El objeto principal de la cura de heridas abiertas es promover la infección en 
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "lee cuidadosamente"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -233,7 +273,7 @@ El objeto principal de la cura de heridas abiertas es promover la infección en 
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "coloca el numero"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -249,6 +289,7 @@ El objeto principal de la cura de heridas abiertas es promover la infección en 
                 <li><img src="../assets/imgtest/5/7.jpg" alt=""><br><input type="text" class="imageres"></li>
                 <li><img src="../assets/imgtest/5/5.jpg" alt=""><br><input type="text" class="imageres"></li>
                 <li><img src="../assets/imgtest/5/6.jpg" alt=""><br><input type="text" class="imageres"></li> 
+                <li><img src="../assets/imgtest/5/8.jpg" alt=""><br><input type="text" class="imageres"></li> 
 
               </ul>
               <a href="#" class="button">Corregir</a>
@@ -260,7 +301,7 @@ El objeto principal de la cura de heridas abiertas es promover la infección en 
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "debes leer"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -279,7 +320,7 @@ El objeto principal de la cura de heridas abiertas es promover la infección en 
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "3 palabras correctas"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -306,12 +347,12 @@ El objeto principal de la cura de heridas abiertas es promover la infección en 
               <h3 align="left" style="display:inline-block">Felicitaciones</h3>
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "muy bien"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
               <p class="texto">
-                Has aprovado este nivel, ya puedes comenzar el siguiente.       
+                Has aprobado este nivel, ya puedes comenzar el siguiente.       
               </p>                    
               <a href="#" class="button">Finalizar</a>                         
             </article>
@@ -319,13 +360,13 @@ El objeto principal de la cura de heridas abiertas es promover la infección en 
             <article class="content-box reprovado">
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "nuevamente evaluacion"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
               <h3 align="left" style="display:inline-block">Intenta nuevamente</h3>
               <p class="texto">
-                Has hecho un gran esfuerzo, pero necesitas un poco mas para aprovar este nivel.       
+                Has hecho un gran esfuerzo, pero necesitas un poco mas para aprobar este nivel.       
               </p>                    
               <a href="#" class="button">Intentar de nuevo</a>                         
             </article>
@@ -455,4 +496,21 @@ $('.ch1').click(function(){
 });
   
   
+</script>
+
+
+
+<script type="text/javascript" src="../assets/mediaplayer/swfobject.js"></script>
+<script type="text/javascript">
+<? for($i=1;$i<25; $i++){ ?>
+
+  var player<? echo $i ?> = new SWFObject('../assets/mediaplayer/mediaplayer.swf','mpl','320','20','7'); 
+  player<? echo $i ?>.addParam('allowfullscreen','true'); 
+  player<? echo $i ?>.addVariable('file','../assets/audios/<? echo $i ?>.mp3'); 
+  player<? echo $i ?>.addVariable('height','20'); 
+  player<? echo $i ?>.addVariable('width','320'); 
+  if($("#player<? echo $i ?>").length){
+    player<? echo $i ?>.write('player<? echo $i ?>');
+  }  
+<? } ?>
 </script>

@@ -109,7 +109,7 @@
                 <td align="right" colspace="2">
                   <!-- ENFERMERA INICIO -->
                   <div class="enfermera">
-                  <? $enfermera = "bienvenida"; 
+                  <? $enfermera = "selecciona"; 
                      include "php/enfermera.php";?>
                   </div>
                   <!-- ENFERMERA FIN -->

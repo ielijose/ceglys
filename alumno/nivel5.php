@@ -93,48 +93,80 @@
           <div class="container_12">            
 
             <article class="content-box" data-tipo="start">
+              <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "memoriza los pasos"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
               <h3 align="center">PASOS  PARA LA ADMINISTRACION DE FARMACOS POR VÍA INTRAVENOSA              </h3>
               <table width="100%" border="0">
                 <tr>
-                  <td width="53%">Comprobar 5 correctos.</td>
-                  <td width="47%"><img src="../assets/images/image001.jpg" alt="" class="img right m300"></td>
+                  <td width="50%" align="justify">Comprobar 5 correctos.</td>
+                  <td width="50%" align="center">
+                    <img src="../assets/images/image001.jpg" alt="" class="img right m300">
+                    <div id="player1"></div> 
+                  </td>
                 </tr>
                 <tr>
-                  <td>Lavarse las manos.<br>
+                  <td width="50%" align="justify">Lavarse las manos.<br>
                     <br>
                   Colocarse guantes.</td>
-                  <td><img src="../assets/images/image002.png" width="266" height="308"></td>
+                  <td width="50%" align="center">
+                    <img src="../assets/images/image002.png" alt="" class="img right m300">
+                    <div id="player2"></div> 
+                  </td>
                 </tr>
                 <tr>
-                  <td>
+                  <td width="50%" align="justify">
                   Elegir la zona por puncionar y descubrirla. En este caso se selecciona  la vena más palpable y la más visible. Limpiar el área.                    <p>&nbsp;</p></td>
-                  <td><img src="../assets/images/image015.jpg" width="313" height="234"></td>
+
+                  <td width="50%" align="center">
+                    <img src="../assets/images/image015.jpg" alt="" class="img right m300">
+                    <div id="player9"></div> 
+                  </td>
                 </tr>
                 <tr>
-                  <td>Colocar la ligadura de 5 a 8 centímetros por arriba de la vena elegida  para la punción.&nbsp;Purgar el aire de la jeringa e introducir la aguja con el bicel hacia  arriba formando un ángulo de 30 grados, después de atravesar la piel seguir el  trayecto venoso hasta puncionar la vena, aspirar para cerciorarse de que la aguja  esté dentro de ella.</td>
-                  <td><img src="../assets/images/image016_1.jpg" width="116" height="239"></td>
+                  <td width="50%" align="justify">Colocar la ligadura de 5 a 8 centímetros por arriba de la vena elegida  para la punción.&nbsp;Purgar el aire de la jeringa e introducir la aguja con el bicel hacia  arriba formando un ángulo de 30 grados, después de atravesar la piel seguir el  trayecto venoso hasta puncionar la vena, aspirar para cerciorarse de que la aguja  esté dentro de ella.</td>
+
+                  <td width="50%" align="center">
+                    <img src="../assets/images/image016_1.jpg" alt="" class="img right m300">
+                    <div id="player10"></div> 
+                  </td>
                 </tr>
                 <tr>
-                  <td valign="top" align="left"><p>Quitar la ligadura. <br>
+                  <td width="50%" align="justify"><p>Quitar la ligadura. <br>
                     Introducir    el medicamento lentamente, observando las reacciones del paciente. </p>
                   </td>
-                  <td><img src="../assets/images/image017.jpg" width="320" height="256"></td>
+
+                  <td width="50%" align="center">
+                    <img src="../assets/images/image017.jpg" alt="" class="img right m300">
+                    <div id="player11"></div> 
+                  </td>
                 </tr>
                 <tr>
-                  <td>Limpia el área y colocar una torunda alcoholada en el sitio de la punción.</td>
-                  <td><img src="../assets/images/image016_3.jpg" width="238" height="216"></td>
+                  <td width="50%" align="justify">Limpia el área y colocar una torunda alcoholada en el sitio de la punción.</td>
+
+                  <td width="50%" align="center">
+                    <img src="../assets/images/image016_3.jpg" alt="" class="img right m300">
+                    <div id="player12"></div> 
+                  </td>
                 </tr>
                 <tr>
-                  <td>Desechar  la aguja y lavarse las manos.</td>
-                  <td><img src="../assets/images/image008.jpg" alt="" width="232" height="200"></td>
+                  <td width="50%" align="justify">Desechar  la aguja y lavarse las manos.</td>
+
+                  <td width="50%" align="center">
+                    <img src="../assets/images/image008.jpg" alt="" class="img right m300">
+                    <div id="player8"></div> 
+                  </td>
                 </tr>
                 <tr>
                   <td height="61" align="center" valign="bottom"><strong>Contraindicaciones</strong></td>
                   <td align="center" valign="bottom"><strong>Indicaciones</strong></td>
                 </tr>
                 <tr>
-                  <td>Esta  administración está contraindicada en casos en los que el medicamento esté  comercializado en forma oral y el paciente pueda tomarlo. Y también cuando  existan problemas en la coagulación sanguínea.</td>
-                  <td>
+                  <td width="50%" align="justify">Esta  administración está contraindicada en casos en los que el medicamento esté  comercializado en forma oral y el paciente pueda tomarlo. Y también cuando  existan problemas en la coagulación sanguínea.</td>
+                  <td width="50%" align="justify">
                   Para  la preparación es necesario comprobar si no hay alergias; comprobar la orden de  medicación; preparar la dosis correcta del fármaco; si se utiliza un vial de  más de un uso, limpiar la medrana de plástico con alcohol; desechar toda aguja  que contacte con la membrana del vial o paredes; nunca usar un medicamento  turbio, con color alterado o precipitado, a menos que las indicaciones del  fabricante expresen que el hacerlo así no es peligroso; revisar la jeringa ya  que el émbolo debe deslizarse por el tubo sin obstáculos. El manguito de la  aguja debe encajar en la jeringa a la perfección; la aguja debe estar lista y  recta; cubrir la aguja con su cubierta (después de la preparación).Desechar  correctamente los residuos (evitando contactar con aguja)</td>
                 </tr>
 
@@ -142,7 +174,7 @@
                   <td colspan="2">
                   <!-- VIDEO INICIO -->
                     <div class="">
-                    <? $video = "ab"; 
+                    <? $video = "5"; 
                     include "php/video.php";?>
                     </div>
                     <!-- VIDEO FIN -->
@@ -162,7 +194,7 @@
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "verdadero o falso"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -181,7 +213,7 @@
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "lee cuidadosamente"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -202,7 +234,7 @@
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "coloca el numero"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -230,7 +262,7 @@
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "imagen correcta"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -249,7 +281,7 @@
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "debes leer"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -269,7 +301,7 @@
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "verdadero o falso"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -285,12 +317,12 @@
               <h3 align="left" style="display:inline-block">Felicitaciones</h3>
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "retencion de informacion"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
               <p class="texto">
-                Has aprovado este nivel, ya puedes comenzar el siguiente.       
+                Has aprobado este nivel, ya puedes comenzar el siguiente.       
               </p>                    
               <a href="#" class="button">Finalizar</a>                         
             </article>
@@ -298,13 +330,13 @@
             <article class="content-box reprovado">
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "nuevamente evaluacion"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
               <h3 align="left" style="display:inline-block">Intenta nuevamente</h3>
               <p class="texto">
-                Has hecho un gran esfuerzo, pero necesitas un poco mas para aprovar este nivel.       
+                Has hecho un gran esfuerzo, pero necesitas un poco mas para aprobar este nivel.       
               </p>                    
               <a href="#" class="button">Intentar de nuevo</a>                         
             </article>
@@ -419,4 +451,20 @@
   });
   
   
+</script>
+
+
+<script type="text/javascript" src="../assets/mediaplayer/swfobject.js"></script>
+<script type="text/javascript">
+<? for($i=1;$i<25; $i++){ ?>
+
+  var player<? echo $i ?> = new SWFObject('../assets/mediaplayer/mediaplayer.swf','mpl','320','20','7'); 
+  player<? echo $i ?>.addParam('allowfullscreen','true'); 
+  player<? echo $i ?>.addVariable('file','../assets/audios/<? echo $i ?>.mp3'); 
+  player<? echo $i ?>.addVariable('height','20'); 
+  player<? echo $i ?>.addVariable('width','320'); 
+  if($("#player<? echo $i ?>").length){
+    player<? echo $i ?>.write('player<? echo $i ?>');
+  }  
+<? } ?>
 </script>

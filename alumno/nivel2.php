@@ -85,6 +85,14 @@ if($nivel != 1){
 
             <article class="content-box" data-tipo="start">
               <h3 align="center">Administración de farmacos.</h3>
+              
+               <!-- ENFERMERA INICIO -->
+              <? 
+                  $enfermera = "analisa la inf"; 
+                  include "php/enfermera.php";  
+              ?>
+              <!-- ENFERMERA FIN -->
+              
               <p class="texto">
                 
                 <h3>Definición de Fármaco: </h3>
@@ -103,17 +111,21 @@ La administración de medicamentos son actividades de enfermería que se realiza
 Antes de realizar la administración de fármacos se deben revisar los 5 correctos presentados a continuación:
 Los cinco correctos para la administración de medicamentos, le permiten al personal enfermero que va a administrar una medicación, seguir algunas precauciones estándares, para evitar o minimizar al máximo la posibilidad de un error al utilizarlos el enfermero se asegura de cumplir algunas pautas para la administración que ya están prestablecidas y que lo guían para un mejor proceder.
 
+  <tr>
+                  <td colspan="2">
+                  <!-- VIDEO INICIO -->
+                    <div class="">
+                    <? $video = "ab"; 
+                    include "php/video.php";?>
+                    </div>
+                    <!-- VIDEO FIN -->
+                  </td>
+                </tr>
+              </table>
 
-    <!-- VIDEO INICIO -->
-    <div class="enfermera">
-    <? $video = "ab"; 
-    include "php/video.php";?>
-    </div>
-    <!-- VIDEO FIN -->
 
-
-
-              </p>       
+              </p>
+             
               
               <a href="#" class="button"> Empezar Test--> </a>
                          
@@ -128,7 +140,7 @@ Los cinco correctos para la administración de medicamentos, le permiten al pers
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "debes leer"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -146,7 +158,7 @@ Los cinco correctos para la administración de medicamentos, le permiten al pers
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "verdadero o falso"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -161,13 +173,13 @@ Los cinco correctos para la administración de medicamentos, le permiten al pers
             </article>
 
             <!-- 3 -->
-
+ 
             <article class="content-box" data-tipo="select">
               <h3>3) •  Un fármaco es utilizado en …… y cura de una enfermedad:</h3>
 
-              <!-- ENFERMERA INICIO -->
+             <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "3 palabras correctas"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -194,7 +206,7 @@ Los cinco correctos para la administración de medicamentos, le permiten al pers
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "verdadero o falso"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -216,7 +228,7 @@ Los cinco correctos para la administración de medicamentos, le permiten al pers
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "lee cuidadosamente"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -234,7 +246,7 @@ Los cinco correctos para la administración de medicamentos, le permiten al pers
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "coloca el numero"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -260,7 +272,7 @@ Los cinco correctos para la administración de medicamentos, le permiten al pers
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "verdadero o falso"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -282,7 +294,7 @@ Los cinco correctos para la administración de medicamentos, le permiten al pers
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "lee cuidadosamente"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -302,12 +314,12 @@ Los cinco correctos para la administración de medicamentos, le permiten al pers
               <h3 align="left" style="display:inline-block">Felicitaciones</h3>
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "lograste porcentaje"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
               <p class="texto">
-                Has aprovado este nivel, ya puedes comenzar el siguiente.       
+                Has aprobado este nivel, ya puedes comenzar el siguiente.       
               </p>                    
               <a href="#" class="button">Finalizar</a>                         
             </article>
@@ -315,13 +327,13 @@ Los cinco correctos para la administración de medicamentos, le permiten al pers
             <article class="content-box reprovado">
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "nuevamente evaluacion"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
               <h3 align="left" style="display:inline-block">Intenta nuevamente</h3>
               <p class="texto">
-                Has hecho un gran esfuerzo, pero necesitas un poco mas para aprovar este nivel.       
+                Has hecho un gran esfuerzo, pero necesitas un poco mas para aprobar este nivel.       
               </p>                    
               <a href="#" class="button">Intentar de nuevo</a>                         
             </article>

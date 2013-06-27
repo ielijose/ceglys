@@ -90,74 +90,114 @@ if($nivel != 3){
         <!-- Content -->
     <section id="content"><div class="ic">Ceglys Afanador @ ceglysafanador.com.ve Junio, 2013!</div>
           <div class="container_12">
-
-            <article class="content-box" data-tipo="start">
+             </p>
+            <article class="content-box" data-tipo="start"> <!-- ENFERMERA INICIO -->
+              <div class="enfermera">
+              <? $enfermera = "analisa la inf"; 
+                 include "php/enfermera.php";?>
+              </div>
+              <!-- ENFERMERA FIN -->
               <h3 align="center">Administración de farmacos via intramuscular en el área del gluteo.</h3>
+              
+              </p>
+              
+              </p>
+              </p>
+
               <p>El sitio recomendado es el cuadrante superior externo del área glútea (unos 5 u 8 cm por debajo de la cresta ilíaca) y puede localizarse trazando una línea desde la espina ilíaca postero-superior hasta el trocánter mayor del fémur. Cualquier inyección aplicada por fuera y por encima de esta línea se encontrará a cierta distancia del nervio ciático.</p>
               <table width="100%" border="0">
                 <tr>
                   <td colspan="2" align="center"><h4>PASOS  PARA LA ADMINISTRACION DE FARMACOS EN EL GLUTEO: </h4></td>
                 </tr>
                 <tr>
-                  <td width="53%">Compruebe  5 correctos e informe el procedimiento al paciente.</td>
-                  <td width="47%"><img src="../assets/images/image001.jpg" alt="" class="img right m300"></td>
+                  <td width="50%" align="justify">Compruebe  5 correctos e informe el procedimiento al paciente.</td>
+                  <td width="50%" align="center">
+                    <img src="../assets/images/image001.jpg" alt="" class="img right m300">
+                    <div id="player1"></div> 
+                  </td>
+
                 </tr>
                 <tr>
-                  <td align="left">  Lávese la manos</td>
-                  <td><img src="../assets/images/image002.png" width="291" height="251"></td>
+                  <td width="50%" align="justify">  Lávese la manos</td>
+                  <td width="50%" align="center">
+                    <img src="../assets/images/image002.png" alt="" class="img right m300">
+                    <div id="player2"></div> 
+                  </td>
                 </tr>
                 <tr>
-                  <td align="left">- Elija sitio de punción dividiendo la nalga en 4 cuadrantes imaginarios. La línea vertical se extiende desde la creta ilíaca hasta el pliegue medio, hasta la parte lateral de la nalga. Localizar la parte superior externa del cuadrante superior externo. Es importante palpar la cresta ilíaca para que la zona está lo suficientemente alta. Los cálculos visuales sólo pueden dar como resultado una inyección que sea demasiado baja y lesión del paciente.</td>
-                  <td><img src="../assets/images/glut1.png"  height="300"></td>
+                  <td width="50%" align="justify">- Elija sitio de punción dividiendo la nalga en 4 cuadrantes imaginarios. La línea vertical se extiende desde la creta ilíaca hasta el pliegue medio, hasta la parte lateral de la nalga. Localizar la parte superior externa del cuadrante superior externo. Es importante palpar la cresta ilíaca para que la zona está lo suficientemente alta. Los cálculos visuales sólo pueden dar como resultado una inyección que sea demasiado baja y lesión del paciente.</td>
+                  <td width="50%" align="center">
+                    <img src="../assets/images/glut1.png" alt="" class="img right m300">
+                    <div id="player13"></div> 
+                  </td>
+
                 </tr>
 
                 <tr>
-                  <td align="left">Realice asepsia de la piel con tórula de alcohol ( solo si no es una vacuna lo que se va a administrar, ya que en este caso no se debe realizar asepsia previa, debido a que el alcohol puede inactivar el producto)</td>
-                  <td><img src="../assets/images/glut2.png" height="300" alt=""></td>
+                  <td width="50%" align="justify">Realice asepsia de la piel con tórula de alcohol ( solo si no es una vacuna lo que se va a administrar, ya que en este caso no se debe realizar asepsia previa, debido a que el alcohol puede inactivar el producto)</td>
+                  <td width="50%" align="center">
+                    <img src="../assets/images/glut2.png" alt="" class="img right m300">
+                    <div id="player4"></div> 
+                  </td>
                 </tr>
 
                 <tr>
-                  <td align="left">Con una mano estire la piel en la zona elegida. Inserte la aguja en ángulo de 90º con un movimiento rápido y seguro</td>
-                  <td><img src="../assets/images/glut3.jpg" height="300" alt=""></td>
+                  <td width="50%" align="justify">Con una mano estire la piel en la zona elegida. Inserte la aguja en ángulo de 90º con un movimiento rápido y seguro</td>
+                  <td width="50%" align="center">
+                    <img src="../assets/images/glut3.jpg" alt="" class="img right m300">
+                    <div id="player14"></div> 
+                  </td>
                 </tr>
 
                 <tr>
-                  <td align="left">Aspire la jeringa y asegúrese que no refluya sangre </td>
-                  <td><img src="../assets/images/glut4.jpg" height="300" alt=""></td>
+                  <td width="50%" align="justify">Aspire la jeringa y asegúrese que no refluya sangre </td>
+                  <td width="50%" align="center">
+                    <img src="../assets/images/glut4.jpg" alt="" class="img right m300">
+                    <div id="player15"></div> 
+                  </td>
                 </tr>
 
                 <tr>
-                  <td align="left">inyecte lentamente la solución</td>
-                  <td><img src="../assets/images/glut5.png" height="300" alt=""></td>
+                  <td width="50%" align="justify">inyecte lentamente la solución</td>
+                  <td width="50%" align="center">
+                    <img src="../assets/images/glut5.png" alt="" class="img right m300">
+                    <div id="player16"></div> 
+                  </td>
                 </tr>
 
                 <tr>
-                  <td align="left">Retire la aguja con movimiento rápido, coloque una tórula seca y aplique masaje circular  ( solo si lo que se administrando no es un medicamento de depósito)</td>
-                  <td><img src="../assets/images/glut6.png" height="300" alt=""></td>
+                  <td width="50%" align="justify">Retire la aguja con movimiento rápido, coloque una tórula seca y aplique masaje circular  ( solo si lo que se administrando no es un medicamento de depósito)</td>
+                  <td width="50%" align="center">
+                    <img src="../assets/images/glut6.png" alt="" class="img right m300">
+                    <div id="player17"></div> 
+                  </td>
                 </tr>
 
                 
             
                 <tr>
-                  <td align="left">Elimine el material sucio, lávese las manos y registre el procedimiento.</td>
-                  <td><img src="../assets/images/image008.jpg" width="232" height="200"></td>
+                  <td width="50%" align="justify">Elimine el material sucio, lávese las manos y registre el procedimiento.</td>
+                  <td width="50%" align="center">
+                    <img src="../assets/images/image008.jpg" alt="" class="img right m300">
+                    <div id="player8"></div> 
+                  </td>
                 </tr>
                 <tr>
                   <td height="61" align="center" valign="bottom"><strong>Contraindicaciones</strong></td>
                   <td align="center" valign="bottom"><strong>Indicaciones</strong></td>
                 </tr>
                 <tr>
-                  <td>No deben administrarse medicamentos por inyección intramuscular a personas que usen anticoagulantes o que tengan problemas con la coagulación de la sangre o con el número o con el funcionamiento de las plaquetas, ya que se pueden formar hematomas locales de gran severidad.<br><br>
+                  <td width="50%" align="justify">No deben administrarse medicamentos por inyección intramuscular a personas que usen anticoagulantes o que tengan problemas con la coagulación de la sangre o con el número o con el funcionamiento de las plaquetas, ya que se pueden formar hematomas locales de gran severidad.<br><br>
 Además, se conocen bien los riesgos de la inyección en la región glútea en niños pequeños, debido al riesgo de lesionar el nervio ciático u otras estructuras descritas, por lo que debe evitarse inyectar en esta región en ellos.<br><br>
 Las inyecciones en cualquiera de los dos cuadrantes inferiores  pueden lesionar el nervio ciático, así como otros nervios y vasos que emergen por debajo del músculo piramidal de la pelvis, ubicado profundamente en la región.<br><br>
 </td>
-                  <td>El paciente deberá ser colocado boca abajo con los pies en rotación interna y en flexión plantar cuando se localice el sitio por palpación. Esta posición asegura la relajación del músculo mientras se aplica la inyección. No se debe usar la posición de pie o sentado porque es imposible la relajación del músculo y hay peligro de que una brusca contracción pudiera llegar a romper la aguja.</td>
+                  <td width="50%" align="justify">El paciente deberá ser colocado boca abajo con los pies en rotación interna y en flexión plantar cuando se localice el sitio por palpación. Esta posición asegura la relajación del músculo mientras se aplica la inyección. No se debe usar la posición de pie o sentado porque es imposible la relajación del músculo y hay peligro de que una brusca contracción pudiera llegar a romper la aguja.</td>
                 </tr>
                 <tr>
                   <td colspan="2">
                   <!-- VIDEO INICIO -->
                     <div class="">
-                    <? $video = "ab"; 
+                    <? $video = "4"; 
                     include "php/video.php";?>
                     </div>
                     <!-- VIDEO FIN -->
@@ -177,7 +217,7 @@ Las inyecciones en cualquiera de los dos cuadrantes inferiores  pueden lesionar 
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "verdadero o falso"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -196,7 +236,7 @@ Las inyecciones en cualquiera de los dos cuadrantes inferiores  pueden lesionar 
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "lee cuidadosamente"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -216,7 +256,7 @@ Las inyecciones en cualquiera de los dos cuadrantes inferiores  pueden lesionar 
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "coloca el numero"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -244,7 +284,7 @@ Las inyecciones en cualquiera de los dos cuadrantes inferiores  pueden lesionar 
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "debes leer"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -261,7 +301,7 @@ Las inyecciones en cualquiera de los dos cuadrantes inferiores  pueden lesionar 
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "imagen correcta"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -280,7 +320,7 @@ Las inyecciones en cualquiera de los dos cuadrantes inferiores  pueden lesionar 
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "verdadero o falso"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -304,12 +344,12 @@ Las inyecciones en cualquiera de los dos cuadrantes inferiores  pueden lesionar 
               <h3 align="left" style="display:inline-block">Felicitaciones</h3>
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "lograste porcentaje"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
               <p class="texto">
-                Has aprovado este nivel, ya puedes comenzar el siguiente.       
+                Has aprobado este nivel, ya puedes comenzar el siguiente.       
               </p>                    
               <a href="#" class="button">Finalizar</a>                         
             </article>
@@ -317,13 +357,13 @@ Las inyecciones en cualquiera de los dos cuadrantes inferiores  pueden lesionar 
             <article class="content-box reprovado">
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "bienvenida"; 
+              <? $enfermera = "nuevamente evaluacion"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
               <h3 align="left" style="display:inline-block">Intenta nuevamente</h3>
               <p class="texto">
-                Has hecho un gran esfuerzo, pero necesitas un poco mas para aprovar este nivel.       
+                Has hecho un gran esfuerzo, pero necesitas un poco mas para aprobar este nivel.       
               </p>                    
               <a href="#" class="button">Intentar de nuevo</a>                         
             </article>
@@ -438,4 +478,18 @@ Las inyecciones en cualquiera de los dos cuadrantes inferiores  pueden lesionar 
   });
   
   
+</script>
+<script type="text/javascript" src="../assets/mediaplayer/swfobject.js"></script>
+<script type="text/javascript">
+<? for($i=1;$i<25; $i++){ ?>
+
+  var player<? echo $i ?> = new SWFObject('../assets/mediaplayer/mediaplayer.swf','mpl','320','20','7'); 
+  player<? echo $i ?>.addParam('allowfullscreen','true'); 
+  player<? echo $i ?>.addVariable('file','../assets/audios/<? echo $i ?>.mp3'); 
+  player<? echo $i ?>.addVariable('height','20'); 
+  player<? echo $i ?>.addVariable('width','320'); 
+  if($("#player<? echo $i ?>").length){
+    player<? echo $i ?>.write('player<? echo $i ?>');
+  }  
+<? } ?>
 </script>
