@@ -12,5 +12,7 @@ $(document).ready(function(){
 			numStatus:false,
 			banners:'fade',// fromLeft, fromRight, fromTop, fromBottom
 			waitBannerAnimation:false
-		})		
+		});
+
+		
  })

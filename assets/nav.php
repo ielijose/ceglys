@@ -14,6 +14,6 @@
             </ul>
         </li>  
 
-        <li class="<? if($p==4){echo "current";}?>"><a href="manual.php">MANUAL DE USUARIO</a></li>
+        <li class="<? if($p==4){echo "current";}?>"><a href="manual.pdf" target="_blank">MANUAL DE USUARIO</a></li>
     </ul>
 </nav>

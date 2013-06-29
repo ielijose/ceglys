@@ -6,3 +6,9 @@
         <li></li>
     </ul>
 </footer>
+
+<script type="text/javascript">
+	$('a[href="#no"]').click(function(){
+			alert("Para ingresar a este modulo debe aprobar los modulos anteriores.");
+		});
+</script>
