@@ -1,7 +1,7 @@
 
 
 <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="300" height="300">
-    <param name="movie" value="../assets/enfermeras/<? echo $enfermera; ?>.swf">
+    <param name="movie" value="../assets/enfermeras/<?php echo $enfermera; ?>.swf">
     <param name="quality" value="high">
     <param name="wmode" value="opaque">
     <param name="swfversion" value="6.0.65.0">
@@ -9,7 +9,7 @@
     <param name="expressinstall" value="../assets/scripts/expressInstall.swf">
     <!-- La siguiente etiqueta object es para navegadores distintos de IE. Ocúltela a IE mediante IECC. -->
     <!--[if !IE]>-->
-    <object type="application/x-shockwave-flash" data="../assets/enfermeras/<? echo $enfermera; ?>.swf" width="300" height="300">
+    <object type="application/x-shockwave-flash" data="../assets/enfermeras/<?php echo $enfermera; ?>.swf" width="300" height="300">
       <!--<![endif]-->
       <param name="quality" value="high">
       <param name="wmode" value="opaque">

@@ -1,4 +1,4 @@
-<? require_once "php/setup.php"; 
+<?php require_once "php/setup.php"; 
 
 $id = $_GET['id'];
 
@@ -74,7 +74,7 @@ function porcentaje($i, $max){
   <div class="main">
         <!-- Header -->
     <header>
-          <? require "php/nav.php"; ?>
+          <?php require "php/nav.php"; ?>
           <div class="clear"></div>
     </header>
         <!-- Slider -->
@@ -112,7 +112,7 @@ function porcentaje($i, $max){
     <section id="content"><div class="ic">Ceglys Afanador @ ceglysafanador.com.ve Junio, 2013!</div>
           <div class="container_12">
             <article class="content-box">
-              <h5> <? echo $alumno->nombre; ?> - CI: <? echo $alumno->ci; ?> </h5>
+              <h5> <?php echo $alumno->nombre; ?> - CI: <?php echo $alumno->ci; ?> </h5>
 
             
               <table width="100%" >
@@ -121,19 +121,19 @@ function porcentaje($i, $max){
                   <td><strong>Nota</strong></td>
                   <td><strong>Estado</strong></td>
                 </tr>
-                <? while($notas = mysql_fetch_object($rnotas)){ ?>
+                <?php while($notas = mysql_fetch_object($rnotas)){ ?>
                 <tr>
-                  <td><? echo utf8_encode($notas->evaluacion); ?></td>
-                  <td><? echo porcentaje($notas->nota, $notas->preguntas); ?></td>
-                  <td><? echo ($notas->estado=='si')?"Aprobado":"Reprobado"; ?></td>
+                  <td><?php echo utf8_encode($notas->evaluacion); ?></td>
+                  <td><?php echo porcentaje($notas->nota, $notas->preguntas); ?></td>
+                  <td><?php echo ($notas->estado=='si')?"Aprobado":"Reprobado"; ?></td>
                 </tr>
-                <? } ?>
+                <?php } ?>
               </table>
             </article>
           </div>
     </section>
         <!-- Footer -->
-    <? require "../assets/footer.php"; ?>
+    <?php require "../assets/footer.php"; ?>
 
   </div>
 </div>

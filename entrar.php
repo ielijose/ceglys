@@ -1,7 +1,7 @@
-<? 
-  require "assets/php/setup.php";
+<?php 
+  require "/assets/php/setup.php";
 
-  $action = $_POST['action'];
+  $action = (isset($_POST['action'])) ? $_POST['action'] : '';
 
   if($action =='entrar'){
 
@@ -9,7 +9,7 @@
       $password = $_POST['pass'];
 
       $query = sprintf("SELECT * FROM usuarios WHERE usuario = %s AND password = %s", 
-                    GetSQLValueString($usuario, 'text'), GetSQLValueString($password, 'text'));
+               GetSQLValueString($usuario, 'text'), GetSQLValueString($password, 'text'));
       $res = mysql_query($query) or die(mysql_errno().$query);
       $login = mysql_fetch_object($res);
 
@@ -72,7 +72,7 @@
   <div class="main">
         <!-- Header -->
     <header>
-          <? $p=2; require "assets/nav.php"; ?>
+          <?php $p=2; require "assets/nav.php"; ?>
           <div class="clear"></div>
     </header>
         <!-- Slider -->
@@ -84,7 +84,7 @@
                   
 
                   <form action="entrar.php" method="POST" style="width:400px; margin:0 auto;" name="entrar" id="entrar">
-                    <? if(isset($_GET['error'])){
+                    <?php if(isset($_GET['error'])){
                         echo "<h1 style='color:red'>Datos incorrectos</h1> <br><br>";
                     } ?>
                     <h1>Inicias Sesión</h1><hr>    
@@ -116,7 +116,7 @@
                 </div>
           </section>
         <!-- Footer -->
-    <? require "assets/footer.php"; ?>
+    <?php require "assets/footer.php"; ?>
 
   </div>
 </div>

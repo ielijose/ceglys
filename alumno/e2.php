@@ -1,4 +1,4 @@
-<? require_once "php/setup.php"; 
+<?php require_once "php/setup.php"; 
 
   $query = "SELECT n.id, n.usuario_id, u.nombre, n.evaluacion_id, e.evaluacion, n.nota
           FROM notas n
@@ -48,7 +48,7 @@
   <div class="main">
         <!-- Header -->
     <header>
-          <? require "php/nav.php"; ?>
+          <?php require "php/nav.php"; ?>
           <div class="clear"></div>
     </header>
         
@@ -91,7 +91,7 @@
             </tr>
             <tr>
             
-            <? if($nivel==2){ $link = "nivel3.php";}else{$link = "#no";} ?>
+            <?php if($nivel==2){ $link = "nivel3.php";}else{$link = "#no";} ?>
 
               <td align="center">
                 <div class="col-1" id="login-form">
@@ -100,13 +100,13 @@
                       <img src="../assets/images/2a.png" alt="" width="171" height="171">
                     </div>
                   </figure>
-                  <a href="<?  echo $link; ?>">
+                  <a href="<?php  echo $link; ?>">
                     <h5 align="center">Administración de farmacos via intramuscular en el área del brazo.</h5>
                   </a>
                 </div>
               </td>
 
-              <? if($nivel==3){ $link = "nivel4.php";}else{$link = "#no";} ?>
+              <?php if($nivel==3){ $link = "nivel4.php";}else{$link = "#no";} ?>
 
               <td align="center">
                 <div class="col-1" id="login-form">
@@ -115,7 +115,7 @@
                       <img src="../assets/images/2b.png" alt="" width="191" height="169">
                     </div>
                   </figure>
-                  <a href="<?  echo $link; ?>">
+                  <a href="<?php  echo $link; ?>">
                     <h5 align="center">Administración de farmacos via intramuscular en el área del gluteo.</h5>
                   </a>
                 </div>
@@ -127,7 +127,7 @@
           </div>
     </section>
         <!-- Footer -->
-    <? require "../assets/footer.php"; ?>
+    <?php require "../assets/footer.php"; ?>
 
   </div>
 </div>

@@ -8,7 +8,7 @@
   <param name="wmode" value="opaque">
   <param name="scale" value="noscale">
   <param name="salign" value="lt">
-  <param name="FlashVars" value="&amp;MM_ComponentVersion=1&amp;skinName=Clear_Skin_3&amp;streamName=../assets/videos/<? echo $video; ?>&amp;autoPlay=false&amp;autoRewind=false" />
+  <param name="FlashVars" value="&amp;MM_ComponentVersion=1&amp;skinName=Clear_Skin_3&amp;streamName=../assets/videos/<?php echo $video; ?>&amp;autoPlay=false&amp;autoRewind=false" />
   <param name="swfversion" value="8,0,0,0">
   <!-- Esta etiqueta param indica a los usuarios de Flash Player 6.0 r65 o posterior que descarguen la versión más reciente de Flash Player. Elimínela si no desea que los usuarios vean el mensaje. -->
   <param name="expressinstall" value="Scripts/expressInstall.swf">
@@ -20,7 +20,7 @@
     <param name="wmode" value="opaque">
     <param name="scale" value="noscale">
     <param name="salign" value="lt">
-    <param name="FlashVars" value="&amp;MM_ComponentVersion=1&amp;skinName=Clear_Skin_3&amp;streamName=../assets/videos/<? echo $video; ?>&amp;autoPlay=false&amp;autoRewind=false" />
+    <param name="FlashVars" value="&amp;MM_ComponentVersion=1&amp;skinName=Clear_Skin_3&amp;streamName=../assets/videos/<?php echo $video; ?>&amp;autoPlay=false&amp;autoRewind=false" />
     <param name="swfversion" value="8,0,0,0">
     <param name="expressinstall" value="Scripts/expressInstall.swf">
     <!-- El navegador muestra el siguiente contenido alternativo para usuarios con Flash Player 6.0 o versiones anteriores. -->

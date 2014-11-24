@@ -1,4 +1,4 @@
-<? require_once "php/setup.php"; 
+<?php require_once "php/setup.php"; 
 
   $query = "SELECT n.id, n.usuario_id, u.nombre, n.evaluacion_id, e.evaluacion, n.nota
           FROM notas n
@@ -51,7 +51,7 @@
   <div class="main">
         <!-- Header -->
     <header>
-          <? require "php/nav.php"; ?>
+          <?php require "php/nav.php"; ?>
           <div class="clear"></div>
     </header>
         
@@ -63,7 +63,7 @@
               <tr>
                 <td align="center" colspan="2">
                   <!-- ENFERMERA INICIO -->
-                  <? 
+                  <?php 
                       $enfermera = "enfermeria"; 
                       include "php/enfermera.php";  
                   ?>
@@ -74,7 +74,7 @@
             </tr>
             <tr>
             
-            <? if($nivel==0){ $link = "nivel1.php";}else{$link = "#no";} ?>
+            <?php if($nivel==0){ $link = "nivel1.php";}else{$link = "#no";} ?>
 
               <td align="center">
                 <div class="col-1" id="login-form">
@@ -83,13 +83,13 @@
                       <img src="../assets/images/1a.png" alt="" width="171" height="171">
                     </div>
                   </figure>
-                  <a href="<?  echo $link; ?>">
+                  <a href="<?php  echo $link; ?>">
                     <h5 align="center">Enfermería.</h5>
                   </a>
                 </div>
               </td>
 
-              <? if($nivel==1){ $link = "nivel2.php";}else{$link = "#no";} ?>
+              <?php if($nivel==1){ $link = "nivel2.php";}else{$link = "#no";} ?>
 
               <td align="center">
                 <div class="col-1" id="login-form">
@@ -98,7 +98,7 @@
                       <img src="../assets/images/1b.png" alt="" width="191" height="169">
                     </div>
                   </figure>
-                  <a href="<?  echo $link; ?>">
+                  <a href="<?php  echo $link; ?>">
                     <h5 align="center">Administración de farmacos</h5>
                   </a>
                 </div>
@@ -110,7 +110,7 @@
           </div>
     </section>
         <!-- Footer -->
-    <? require "../assets/footer.php"; ?>
+    <?php require "../assets/footer.php"; ?>
 
   </div>
 </div>

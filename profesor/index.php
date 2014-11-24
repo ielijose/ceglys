@@ -1,4 +1,4 @@
-<? require_once "php/setup.php"; ?>
+<?php require_once "php/setup.php"; ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -30,7 +30,7 @@
   <div class="main">
         <!-- Header -->
     <header>
-          <? $p=1; require "php/nav.php"; ?>
+          <?php $p=1; require "php/nav.php"; ?>
           <div class="clear"></div>
     </header>
         <!-- Slider -->
@@ -143,7 +143,7 @@
           </div>
     </section>
         <!-- Footer -->
-    <? require "../assets/footer.php"; ?>
+    <?php require "../assets/footer.php"; ?>
 
   </div>
 </div>

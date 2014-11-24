@@ -1,4 +1,4 @@
-<?php
+<?phpphp
 	if (!isset($_SESSION)) {  session_start(); }
 
 	require_once "../assets/php/tutor.php";

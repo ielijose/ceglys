@@ -1,4 +1,4 @@
-<? require_once "php/setup.php"; 
+<?php require_once "php/setup.php"; 
 
   $query = "SELECT n.id, n.usuario_id, u.nombre, n.evaluacion_id, e.evaluacion, n.nota
           FROM notas n
@@ -85,7 +85,7 @@
   <div class="main">
         <!-- Header -->
     <header>
-          <? require "php/nav.php"; ?>
+          <?php require "php/nav.php"; ?>
           <div class="clear"></div>
     </header>
         
@@ -96,7 +96,7 @@
             <article class="content-box" data-tipo="start">
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "analisa la inf"; 
+              <?php $enfermera = "analisa la inf"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -191,7 +191,7 @@ Valorar el proceso de curación.  <br>
                   <td colspan="2">
                   <!-- VIDEO INICIO -->
                     <div class="">
-                    <? $video = "6"; 
+                    <?php $video = "6"; 
                     include "php/video.php";?>
                     </div>
                     <!-- VIDEO FIN -->
@@ -211,7 +211,7 @@ Valorar el proceso de curación.  <br>
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "verdadero o falso"; 
+              <?php $enfermera = "verdadero o falso"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -232,7 +232,7 @@ El objeto principal de la cura de heridas abiertas es promover la infección en 
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "imagen correcta"; 
+              <?php $enfermera = "imagen correcta"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -252,7 +252,7 @@ El objeto principal de la cura de heridas abiertas es promover la infección en 
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "lee cuidadosamente"; 
+              <?php $enfermera = "lee cuidadosamente"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -273,7 +273,7 @@ El objeto principal de la cura de heridas abiertas es promover la infección en 
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "coloca el numero"; 
+              <?php $enfermera = "coloca el numero"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -301,7 +301,7 @@ El objeto principal de la cura de heridas abiertas es promover la infección en 
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "debes leer"; 
+              <?php $enfermera = "debes leer"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -320,7 +320,7 @@ El objeto principal de la cura de heridas abiertas es promover la infección en 
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "3 palabras correctas"; 
+              <?php $enfermera = "3 palabras correctas"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -347,7 +347,7 @@ El objeto principal de la cura de heridas abiertas es promover la infección en 
               <h3 align="left" style="display:inline-block">Felicitaciones</h3>
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "muy bien"; 
+              <?php $enfermera = "muy bien"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -360,7 +360,7 @@ El objeto principal de la cura de heridas abiertas es promover la infección en 
             <article class="content-box reprovado">
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "nuevamente evaluacion"; 
+              <?php $enfermera = "nuevamente evaluacion"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -377,7 +377,7 @@ El objeto principal de la cura de heridas abiertas es promover la infección en 
           </div>
     </section>
         <!-- Footer -->
-    <? require "../assets/footer.php"; ?>
+    <?php require "../assets/footer.php"; ?>
 
   </div>
 </div>
@@ -502,15 +502,15 @@ $('.ch1').click(function(){
 
 <script type="text/javascript" src="../assets/mediaplayer/swfobject.js"></script>
 <script type="text/javascript">
-<? for($i=1;$i<25; $i++){ ?>
+<?php for($i=1;$i<25; $i++){ ?>
 
-  var player<? echo $i ?> = new SWFObject('../assets/mediaplayer/mediaplayer.swf','mpl','320','20','7'); 
-  player<? echo $i ?>.addParam('allowfullscreen','true'); 
-  player<? echo $i ?>.addVariable('file','../assets/audios/<? echo $i ?>.mp3'); 
-  player<? echo $i ?>.addVariable('height','20'); 
-  player<? echo $i ?>.addVariable('width','320'); 
-  if($("#player<? echo $i ?>").length){
-    player<? echo $i ?>.write('player<? echo $i ?>');
+  var player<?php echo $i ?> = new SWFObject('../assets/mediaplayer/mediaplayer.swf','mpl','320','20','7'); 
+  player<?php echo $i ?>.addParam('allowfullscreen','true'); 
+  player<?php echo $i ?>.addVariable('file','../assets/audios/<?php echo $i ?>.mp3'); 
+  player<?php echo $i ?>.addVariable('height','20'); 
+  player<?php echo $i ?>.addVariable('width','320'); 
+  if($("#player<?php echo $i ?>").length){
+    player<?php echo $i ?>.write('player<?php echo $i ?>');
   }  
-<? } ?>
+<?php } ?>
 </script>

@@ -1,4 +1,4 @@
-<? 
+<?php 
   require "assets/php/setup.php";
 
   $action = $_POST['action'];
@@ -86,7 +86,7 @@
   <div class="main">
         <!-- Header -->
     <header>
-          <? $p=3; require "assets/nav.php"; ?>
+          <?php $p=3; require "assets/nav.php"; ?>
           <div class="clear"></div>
     </header>
         <!-- Slider -->
@@ -95,11 +95,11 @@
         <!-- Content -->
           <section id="content"><div class="ic">Ceglys Afanador @ ceglysafanador.com.ve Junio, 2013!</div>
                 <div class="container_12" style="margin:10px;"> 
-<? if($repetido){
+<?php if($repetido){
                         echo "<h1 align='center' style='color:red'>El nombre de usuario ya esta en uso, intente nuevamente.</h1> <br><br>";
                     } ?>
 
-              <? if($continuar){ ?>  
+              <?php if($continuar){ ?>  
               
                   <form action="?" method="POST" style="width:400px; margin:0 auto;" name="registro" id="registro">
                                      <h1>Registro Docente</h1><hr>    
@@ -142,7 +142,7 @@
                      <input type="hidden" name="action" value="registrodocente"> 
                   </form> 
 
-              <? }else{ ?>          
+              <?php }else{ ?>          
                   <form action="?" method="POST" style="width:400px; margin:0 auto;">
                                      <h1>Registro Docente</h1><hr>    
                     <table align="center" >
@@ -161,13 +161,13 @@
                     </table>
                      <input type="hidden" name="action" value="validarcodigo"> 
                   </form>
-              <? } ?>
+              <?php } ?>
 
                   
                 </div>
           </section>
         <!-- Footer -->
-    <? require "assets/footer.php"; ?>
+    <?php require "assets/footer.php"; ?>
 
   </div>
 </div>

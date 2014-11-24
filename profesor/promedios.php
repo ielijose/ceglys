@@ -1,4 +1,4 @@
-<? require_once "php/setup.php"; 
+<?php require_once "php/setup.php"; 
 
 $ci = $_GET['ci'];
 if($ci){
@@ -66,7 +66,7 @@ function porcentaje($i, $max){
   <div class="main">
         <!-- Header -->
     <header>
-          <? $p=2; require "php/nav.php"; ?>
+          <?php $p=2; require "php/nav.php"; ?>
           <div class="clear"></div>
     </header>
         <!-- Slider -->
@@ -115,7 +115,7 @@ function porcentaje($i, $max){
                   <td><strong>Promedio</strong></td>
                   <td><strong>Ver</strong></td>
                 </tr>
-                <? $total=0; $i=0; 
+                <?php $total=0; $i=0; 
                 while($alumnos = mysql_fetch_object($r)){ 
                   
 
@@ -145,19 +145,19 @@ function porcentaje($i, $max){
 
                 ?>
                 <tr>
-                  <td><? echo $alumnos->nombre; ?></td>
-                  <td><? echo $prom." %"; ?></td>
-                  <td><a href="alumno.php?id=<? echo $alumnos->id; ?>">Ver </a></td>
+                  <td><?php echo $alumnos->nombre; ?></td>
+                  <td><?php echo $prom." %"; ?></td>
+                  <td><a href="alumno.php?id=<?php echo $alumnos->id; ?>">Ver </a></td>
                 </tr>
-                <? } ?>
+                <?php } ?>
               </table>
               <br>
-              <p>Promedio de alumnos: <? echo number_format($total/$i, 2, '.', '')." %"; ?></p>
+              <p>Promedio de alumnos: <?php echo number_format($total/$i, 2, '.', '')." %"; ?></p>
             </article>
           </div>
     </section>
         <!-- Footer -->
-    <? require "../assets/footer.php"; ?>
+    <?php require "../assets/footer.php"; ?>
 
   </div>
 </div>

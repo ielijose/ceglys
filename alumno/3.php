@@ -1,4 +1,4 @@
-<? require_once "php/setup.php"; 
+<?php require_once "php/setup.php"; 
 
   $query = "SELECT n.id, n.usuario_id, u.nombre, n.evaluacion_id, e.evaluacion, n.nota
           FROM notas n
@@ -70,7 +70,7 @@
   <div class="main">
         <!-- Header -->
     <header>
-          <? require "php/nav.php"; ?>
+          <?php require "php/nav.php"; ?>
           <div class="clear"></div>
     </header>
         
@@ -238,7 +238,7 @@ Los cinco correctos para la administración de medicamentos, le permiten al pers
           </div>
     </section>
         <!-- Footer -->
-    <? require "../assets/footer.php"; ?>
+    <?php require "../assets/footer.php"; ?>
 
   </div>
 </div>

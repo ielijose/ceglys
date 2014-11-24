@@ -1,4 +1,4 @@
-<? require_once "php/setup.php"; 
+<?php require_once "php/setup.php"; 
 
   $query = "SELECT n.id, n.usuario_id, u.nombre, n.evaluacion_id, e.evaluacion, n.nota
           FROM notas n
@@ -51,7 +51,7 @@
   <div class="main">
         <!-- Header -->
     <header>
-          <? $p=1; require "php/nav.php"; ?>
+          <?php $p=1; require "php/nav.php"; ?>
           <div class="clear"></div>
     </header>
         <!-- Slider -->
@@ -91,7 +91,7 @@
             <article class="content-box">
               <table width="100%" border="0" align="center">
               <tr>
-                <? if($gruponivel>=1){ $link = "e1.php";}else{$link = "#no";} ?>
+                <?php if($gruponivel>=1){ $link = "e1.php";}else{$link = "#no";} ?>
                 <td align="right">
                   <div class="col-1" id="login-form">
                     <figure class="img-box">
@@ -99,7 +99,7 @@
                         <img src="../assets/images/farmacos.png" alt="" width="184" height="171">
                       </div>
                     </figure>
-                    <a href="<?  echo $link; ?>">
+                    <a href="<?php  echo $link; ?>">
                       <h5>Administración de farmacos </h5>
                     </a>
                   </div>
@@ -109,7 +109,7 @@
                 <td align="right" colspace="2">
                   <!-- ENFERMERA INICIO -->
                   <div class="enfermera">
-                  <? $enfermera = "selecciona"; 
+                  <?php $enfermera = "selecciona"; 
                      include "php/enfermera.php";?>
                   </div>
                   <!-- ENFERMERA FIN -->
@@ -119,7 +119,7 @@
             </tr>
             <tr>
             
-            <? if($gruponivel>=2){ $link = "e2.php";}else{$link = "#no";} ?>
+            <?php if($gruponivel>=2){ $link = "e2.php";}else{$link = "#no";} ?>
 
               <td>
                 <div class="col-1" id="login-form">
@@ -128,13 +128,13 @@
                       <img src="../assets/images/intramuscular.png" alt="" width="171" height="171">
                     </div>
                   </figure>
-                  <a href="<?  echo $link; ?>">
+                  <a href="<?php  echo $link; ?>">
                     <h5 align="left">AdministraciÓn de farmacos POR vÍa intramuscular.</h5>
                   </a>
                 </div>
               </td>
 
-              <? if($nivel==4){ $link = "nivel5.php";}else{$link = "#no";} ?>
+              <?php if($nivel==4){ $link = "nivel5.php";}else{$link = "#no";} ?>
 
               <td>
                 <div class="col-1" id="login-form">
@@ -143,13 +143,13 @@
                       <img src="../assets/images/intravenosa.png" alt="" width="191" height="169">
                     </div>
                   </figure>
-                  <a href="<?  echo $link; ?>">
+                  <a href="<?php  echo $link; ?>">
                     <h5 align="left">AdministraciÓn de farmacos POR vÍa  intravenosa</h5>
                   </a>
                 </div>
               </td>  
 
-              <? if($nivel==5){ $link = "nivel6.php";}else{$link = "#no";} ?>
+              <?php if($nivel==5){ $link = "nivel6.php";}else{$link = "#no";} ?>
 
               <td>
                 <div class="col-1" id="login-form">
@@ -158,7 +158,7 @@
                       <img src="../assets/images/heridas.png" alt="" width="191" height="169">
                     </div>
                   </figure>
-                  <a href="<?  echo $link; ?>">
+                  <a href="<?php  echo $link; ?>">
                     <h5 align="left">Heridas abiertas</h5>
                   </a>
                 </div>
@@ -170,7 +170,7 @@
           </div>
     </section>
         <!-- Footer -->
-    <? require "../assets/footer.php"; ?>
+    <?php require "../assets/footer.php"; ?>
 
   </div>
 </div>

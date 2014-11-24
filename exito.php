@@ -36,7 +36,7 @@
   <div class="main">
         <!-- Header -->
     <header>
-          <? require "assets/nav.php"; ?>
+          <?php require "assets/nav.php"; ?>
           <div class="clear"></div>
     </header>
         <!-- Slider -->
@@ -54,7 +54,7 @@
                 </div>
           </section>
         <!-- Footer -->
-    <? require "assets/footer.php"; ?>
+    <?php require "assets/footer.php"; ?>
 
   </div>
 </div>

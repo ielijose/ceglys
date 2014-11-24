@@ -29,7 +29,7 @@
   <div class="main">
         <!-- Header -->
     <header>
-          <? $p=1; require "assets/nav.php"; ?>
+          <?php $p=1; require "assets/nav.php"; ?>
           <div class="clear"></div>
     </header>
         <!-- Slider -->
@@ -143,7 +143,7 @@
                       <img src="assets/images/heridas.png" alt="" width="191" >
                     </div>
                   </figure>
-                  <a href="<?  echo $link; ?>">
+                  <a href="<?php  echo $link; ?>">
                     <h5 align="left">Heridas abiertas</h5>
                   </a>
                 </div>
@@ -155,7 +155,7 @@
           </div>
     </section>
         <!-- Footer -->
-    <? require "assets/footer.php"; ?>
+    <?php require "assets/footer.php"; ?>
 
   </div>
 </div>

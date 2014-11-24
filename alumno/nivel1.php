@@ -1,4 +1,4 @@
-<? require_once "php/setup.php"; 
+<?php require_once "php/setup.php"; 
 
   $query = "SELECT n.id, n.usuario_id, u.nombre, n.evaluacion_id, e.evaluacion, n.nota
           FROM notas n
@@ -57,7 +57,7 @@ if($nivel != 0){
   <div class="main">
         <!-- Header -->
     <header>
-          <? require "php/nav.php"; ?>
+          <?php require "php/nav.php"; ?>
           <div class="clear"></div>
     </header>
         
@@ -69,7 +69,7 @@ if($nivel != 0){
              
                <img src="../assets/images/fea_language.jpg" class="img right m300" style="height:270px">
                                 <!-- ENFERMERA INICIO -->
-                                <? 
+                                <?php 
                                  $enfermera = "debes leer"; 
                                 include "php/enfermera.php";  
                                 ?>
@@ -100,7 +100,7 @@ Y como profesión, la enfermería requiere del conocimiento y apoyo de las cienc
               <h3 align="left" style="display:inline-block">1) Verdadero o falso </h3>
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "verdadero o falso"; 
+              <?php $enfermera = "verdadero o falso"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -122,7 +122,7 @@ Y como profesión, la enfermería requiere del conocimiento y apoyo de las cienc
               <h3>2) Se considera la enfermería como:</h3>
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "3 palabras correctas"; 
+              <?php $enfermera = "3 palabras correctas"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -147,7 +147,7 @@ Y como profesión, la enfermería requiere del conocimiento y apoyo de las cienc
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "lee cuidadosamente"; 
+              <?php $enfermera = "lee cuidadosamente"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -169,7 +169,7 @@ Y como profesión, la enfermería requiere del conocimiento y apoyo de las cienc
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "verdadero o falso"; 
+              <?php $enfermera = "verdadero o falso"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -189,7 +189,7 @@ Y como profesión, la enfermería requiere del conocimiento y apoyo de las cienc
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "lee cuidadosamente"; 
+              <?php $enfermera = "lee cuidadosamente"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -213,7 +213,7 @@ Y como profesión, la enfermería requiere del conocimiento y apoyo de las cienc
 
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "verdadero o falso"; 
+              <?php $enfermera = "verdadero o falso"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -232,7 +232,7 @@ Y como profesión, la enfermería requiere del conocimiento y apoyo de las cienc
               <h3 align="left" style="display:inline-block">Felicitaciones</h3>
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "muy bien"; 
+              <?php $enfermera = "muy bien"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -244,7 +244,7 @@ Y como profesión, la enfermería requiere del conocimiento y apoyo de las cienc
              <article class="content-box reprovado">
               <!-- ENFERMERA INICIO -->
               <div class="enfermera">
-              <? $enfermera = "nuevamente evaluacion"; 
+              <?php $enfermera = "nuevamente evaluacion"; 
                  include "php/enfermera.php";?>
               </div>
               <!-- ENFERMERA FIN -->
@@ -261,7 +261,7 @@ Y como profesión, la enfermería requiere del conocimiento y apoyo de las cienc
           </div>
     </section>
         <!-- Footer -->
-    <? require "../assets/footer.php"; ?>
+    <?php require "../assets/footer.php"; ?>
 
   </div>
 </div>

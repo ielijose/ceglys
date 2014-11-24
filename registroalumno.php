@@ -1,4 +1,4 @@
-<? 
+<?php 
   require "assets/php/setup.php";
 
   $action = $_POST['action'];
@@ -75,7 +75,7 @@
   <div class="main">
         <!-- Header -->
     <header>
-          <? $p=3; require "assets/nav.php"; ?>
+          <?php $p=3; require "assets/nav.php"; ?>
           <div class="clear"></div>
     </header>
         <!-- Slider -->
@@ -84,7 +84,7 @@
         <!-- Content -->
           <section id="content"><div class="ic">Ceglys Afanador @ ceglysafanador.com.ve Junio, 2013!</div>
                 <div class="container_12" style="margin:10px;">  
-                  <? if($repetido){
+                  <?php if($repetido){
                         echo "<h1 align='center' style='color:red'>El nombre de usuario ya esta en uso, intente nuevamente.</h1> <br><br>";
                     } ?>
 
@@ -134,7 +134,7 @@
                 </div>
           </section>
         <!-- Footer -->
-    <? require "assets/footer.php"; ?>
+    <?php require "assets/footer.php"; ?>
 
   </div>
 </div>
